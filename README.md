@@ -49,14 +49,18 @@ Edit `src/config.js` to change:
 - **Questions per round**: Change `questionsPerRound`
 - **TTS rate**: Adjust `ttsRate` (0.85 is slightly slower than normal)
 
-### 4. Enable GitHub Pages
+### 4. Deploy (automatic)
 
-1. Go to your fork's **Settings** → **Pages**
-2. Under "Source", select **Deploy from a branch**
-3. Choose **main** branch and **/ (root)** folder
-4. Click **Save**
+This repo includes a GitHub Actions workflow. Every time you push to `main`, it builds the app and deploys automatically.
 
-Your game will be live at `https://yourusername.github.io/memory-lane-game/`
+Just commit and push:
+```bash
+git add .
+git commit -m "Update Memory Lane"
+git push origin main
+```
+
+Your game will be live at `https://yourusername.github.io/memory-lane-game/` (usually within 30 seconds).
 
 ### 5. Share the URL
 
