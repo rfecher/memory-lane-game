@@ -1,3 +1,5 @@
+import { useCallback } from 'react'
+
 export function useAudio() {
   const play = useCallback((frequencies, type = 'sine', duration = 0.15) => {
     try {

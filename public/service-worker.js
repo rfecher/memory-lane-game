@@ -1,5 +1,6 @@
 const CACHE_NAME = 'memory-lane-v1'
-const APP_SHELL = ['/', '/index.html', '/manifest.json']
+// These paths are relative to the service worker's scope (/memory-lane-game/)
+const APP_SHELL = ['index.html', 'manifest.json']
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(APP_SHELL)))
