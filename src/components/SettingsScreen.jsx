@@ -9,7 +9,7 @@ function SettingsScreen({ onBack, ttsEnabled, onToggleTTS, fontSize, onSetFontSi
 
       <div className="settings-group">
         <span className="settings-label">{subtitles.ttsLabel}</span>
-        <div className="toggle-row">
+        <div className="toggle-row" style={{ justifyContent: 'flex-end' }}>
           <span>{ttsEnabled ? 'ON' : 'OFF'}</span>
           <div className={`toggle-switch ${ttsEnabled ? 'active' : ''}`} onClick={onToggleTTS}>
             <div className="toggle-knob" />
@@ -19,7 +19,7 @@ function SettingsScreen({ onBack, ttsEnabled, onToggleTTS, fontSize, onSetFontSi
 
       <div className="settings-group">
         <span className="settings-label">{subtitles.fontSizeLabel}</span>
-        <div className="settings-option-group">
+        <div className="settings-option-group" style={{ justifyContent: 'flex-end' }}>
           {[
             { key: 'normal', label: subtitles.normal },
             { key: 'large', label: subtitles.large },
@@ -38,7 +38,7 @@ function SettingsScreen({ onBack, ttsEnabled, onToggleTTS, fontSize, onSetFontSi
 
       <div className="settings-group">
         <span className="settings-label">{subtitles.speechSpeedLabel}</span>
-        <div className="settings-option-group">
+        <div className="settings-option-group" style={{ justifyContent: 'flex-end' }}>
           {[
             { key: 'slow', label: subtitles.slow },
             { key: 'normal', label: subtitles.normalSpeed },
@@ -56,14 +56,18 @@ function SettingsScreen({ onBack, ttsEnabled, onToggleTTS, fontSize, onSetFontSi
 
       <div className="settings-group">
         <span className="settings-label" style={{ color: 'var(--color-wrong)' }}>{subtitles.resetLabel}</span>
-        <button className="game-btn wrong" onClick={onConfirmReset} style={{ maxWidth: '400px' }}>
-          {subtitles.resetLabel}
-        </button>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 'var(--spacing-sm)', width: '100%' }}>
+          <button className="game-btn wrong" style={{ maxWidth: '400px' }}>
+            {subtitles.resetLabel}
+          </button>
+        </div>
       </div>
 
-      <button className="back-btn" onClick={onBack}>
-        {subtitles.back}
-      </button>
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', width: '100%', marginTop: 'var(--spacing-sm)' }}>
+        <button className="back-btn" onClick={onBack}>
+          {subtitles.back}
+        </button>
+      </div>
     </div>
   )
 }

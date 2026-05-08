@@ -121,7 +121,7 @@ html, body {
   background: var(--color-white);
   border-radius: var(--radius-lg);
   padding: var(--spacing-lg);
-  margin-bottom: var(--spacing-md);
+  margin-bottom: calc(var(--spacing-md) + 8px);
   box-shadow: 0 2px 8px rgba(62, 47, 35, 0.08);
 }
 
@@ -160,10 +160,16 @@ html, body {
   width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
   gap: var(--spacing-sm);
 }
 
-.answer-btn {
+.answers-column .game-btn {
+  width: 100%;
+  max-width: 65%;
+}
+
+.answers-column .answer-btn {
   text-align: right;
   justify-content: flex-end;
 }
@@ -177,9 +183,10 @@ html, body {
   font-size: var(--font-size-base);
   padding: var(--spacing-xs) var(--spacing-sm);
   cursor: pointer;
-  margin: var(--spacing-sm) auto;
+  margin: var(--spacing-sm) auto var(--spacing-sm) auto;
   display: block;
   min-height: 44px;
+  width: fit-content;
 }
 
 .screen {
