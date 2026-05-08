@@ -43,7 +43,7 @@ function RewardScreen({ onPlayAgain, onBack }) {
         That's your {relationship} {grandchild.name}! {grandchild.name} thinks you're the best, Marion! <span role="img" aria-label="heart">{grandchild.emoji}</span>
       </p>
 
-      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', width: '100%', marginTop: 'var(--spacing-md)' }}>
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%', marginTop: 'var(--spacing-md)', maxWidth: '400px', margin: 'var(--spacing-md) auto 0' }}>
         <button className="game-btn gold-btn" onClick={onPlayAgain} style={{ width: '60%' }}>
           {GAME_CONFIG.subtitles.playAgain}
         </button>

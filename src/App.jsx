@@ -33,7 +33,7 @@ function GameContent() {
   }, [settings.fontSize])
 
   useEffect(() => {
-    if (settings.ttsEnabled && gameState?.shuffledQuestions?.[gameState.currentQuestionIndex]) {
+    if (currentScreen === 'question' && settings.ttsEnabled && gameState?.shuffledQuestions?.[gameState.currentQuestionIndex]) {
       const q = gameState.shuffledQuestions[gameState.currentQuestionIndex]
       speak(q.question, settings.ttsRate)
     }
@@ -70,7 +70,7 @@ function GameContent() {
     splash: <SplashScreen onStart={() => setCurrentScreen('menu')} />,
     menu: <MainMenu onNewGame={handleNewGame} onContinue={handleContinue} onSettings={() => setCurrentScreen('settings')} hasSaved={hasSavedState} />,
     'category-spin': <CategorySpin />,
-    question: gameState?.shuffledQuestions ? (
+    question: currentScreen === 'question' && gameState?.shuffledQuestions ? (
       <QuestionScreen
         question={gameState.shuffledQuestions[gameState.currentQuestionIndex] || gameState.shuffledQuestions[gameState.shuffledQuestions.length - 1]}
         round={gameState.currentQuestionIndex + 1}

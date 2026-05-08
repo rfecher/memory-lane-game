@@ -7,9 +7,9 @@ function SettingsScreen({ onBack, ttsEnabled, onToggleTTS, fontSize, onSetFontSi
     <div className="screen">
       <h2 className="splash-title" style={{ fontSize: 'var(--font-size-heading)' }}>{subtitles.settings}</h2>
 
-      <div className="settings-group">
+      <div className="settings-group" style={{ maxWidth: '400px', width: '100%' }}>
         <span className="settings-label">{subtitles.ttsLabel}</span>
-        <div className="toggle-row" style={{ justifyContent: 'flex-end' }}>
+        <div className="toggle-row">
           <span>{ttsEnabled ? 'ON' : 'OFF'}</span>
           <div className={`toggle-switch ${ttsEnabled ? 'active' : ''}`} onClick={onToggleTTS}>
             <div className="toggle-knob" />
@@ -17,9 +17,9 @@ function SettingsScreen({ onBack, ttsEnabled, onToggleTTS, fontSize, onSetFontSi
         </div>
       </div>
 
-      <div className="settings-group">
+      <div className="settings-group" style={{ maxWidth: '400px', width: '100%' }}>
         <span className="settings-label">{subtitles.fontSizeLabel}</span>
-        <div className="settings-option-group" style={{ justifyContent: 'flex-end' }}>
+        <div className="settings-option-group">
           {[
             { key: 'normal', label: subtitles.normal },
             { key: 'large', label: subtitles.large },
@@ -36,9 +36,9 @@ function SettingsScreen({ onBack, ttsEnabled, onToggleTTS, fontSize, onSetFontSi
         </div>
       </div>
 
-      <div className="settings-group">
+      <div className="settings-group" style={{ maxWidth: '400px', width: '100%' }}>
         <span className="settings-label">{subtitles.speechSpeedLabel}</span>
-        <div className="settings-option-group" style={{ justifyContent: 'flex-end' }}>
+        <div className="settings-option-group">
           {[
             { key: 'slow', label: subtitles.slow },
             { key: 'normal', label: subtitles.normalSpeed },
@@ -54,16 +54,12 @@ function SettingsScreen({ onBack, ttsEnabled, onToggleTTS, fontSize, onSetFontSi
         </div>
       </div>
 
-      <div className="settings-group">
+      <div className="settings-group" style={{ maxWidth: '400px', width: '100%' }}>
         <span className="settings-label" style={{ color: 'var(--color-wrong)' }}>{subtitles.resetLabel}</span>
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 'var(--spacing-sm)', width: '100%' }}>
-          <button className="game-btn wrong" style={{ maxWidth: '400px' }}>
-            {subtitles.resetLabel}
-          </button>
-        </div>
+        <button className="game-btn wrong">{subtitles.resetLabel}</button>
       </div>
 
-      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', width: '100%', marginTop: 'var(--spacing-sm)' }}>
+      <div style={{ marginTop: 'var(--spacing-sm)' }}>
         <button className="back-btn" onClick={onBack}>
           {subtitles.back}
         </button>
