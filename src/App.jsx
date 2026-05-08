@@ -72,12 +72,12 @@ function GameContent() {
     'category-spin': <CategorySpin />,
     question: currentScreen === 'question' && gameState?.shuffledQuestions ? (
       <QuestionScreen
-        question={gameState.shuffledQuestions[gameState.currentQuestionIndex] || gameState.shuffledQuestions[gameState.shuffledQuestions.length - 1]}
+        question={gameState.shuffledQuestions[gameState.currentQuestionIndex]}
         round={gameState.currentQuestionIndex + 1}
         total={gameState.totalQuestionsInRound}
         score={gameState.score}
         onAnswer={handleAnswer}
-        onReplay={() => replay(gameState.shuffledQuestions[Math.min(gameState.currentQuestionIndex, gameState.shuffledQuestions.length - 1)]?.question || '', settings.ttsRate)}
+        onReplay={() => replay(gameState.shuffledQuestions[gameState.currentQuestionIndex]?.question || '', settings.ttsRate)}
         onContinue={handleContinueRound}
         roundComplete={gameState.currentQuestionIndex >= gameState.totalQuestionsInRound}
       />
