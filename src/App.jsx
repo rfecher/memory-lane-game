@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import { useGame } from './hooks/GameContext'
 import { useSettings } from './hooks/useSettings'
 import { useTTS } from './hooks/useTTS'
@@ -39,7 +39,7 @@ function GameContent() {
     }
   }, [currentScreen, gameState?.currentQuestionIndex])
 
-  const handleAnswer = (index) => {
+  const handleAnswer = useCallback((index) => {
     const q = gameState.shuffledQuestions?.[gameState.currentQuestionIndex]
     if (!q) return
     const isCorrect = q.shuffledAnswers[index] === q.correct
@@ -51,7 +51,7 @@ function GameContent() {
       playWrong()
       if (settings.ttsEnabled) speak("Not quite — try again!", settings.ttsRate)
     }
-  }
+  }, [gameState, settings.ttsEnabled, settings.ttsRate, answerQuestion, playCorrect, playWrong, advanceQuestion, speak])
 
   const handleContinueRound = () => {
     playComplete()
@@ -80,6 +80,7 @@ function GameContent() {
         onReplay={() => replay(gameState.shuffledQuestions[gameState.currentQuestionIndex]?.question || '', settings.ttsRate)}
         onContinue={handleContinueRound}
         roundComplete={gameState.currentQuestionIndex >= gameState.totalQuestionsInRound}
+        allQuestionsAttempted={gameState.currentQuestionIndex >= gameState.totalQuestionsInRound - 1}
       />
     ) : null,
     reward: <RewardScreen onPlayAgain={handlePlayAgain} onBack={goBackToMenu} />,

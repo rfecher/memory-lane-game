@@ -1,9 +1,10 @@
 import { useGame } from '../hooks/GameContext'
 import { GAME_CONFIG } from '../config'
 
-function QuestionScreen({ question, round, total, score, onAnswer, onReplay, onContinue, roundComplete }) {
+function QuestionScreen({ question, round, total, score, onAnswer, onReplay, onContinue, roundComplete, allQuestionsAttempted }) {
   const icon = GAME_CONFIG.subtitles.categoryIcons[question.category] || '⭐'
   const name = GAME_CONFIG.subtitles.categoryNames[question.category] || question.category
+  const showContinue = roundComplete || allQuestionsAttempted
 
   return (
     <div className="screen">
@@ -31,7 +32,7 @@ function QuestionScreen({ question, round, total, score, onAnswer, onReplay, onC
         ))}
       </div>
 
-      {roundComplete && (
+      {showContinue && (
         <button className="game-btn gold-btn" onClick={onContinue} style={{ marginTop: 'var(--spacing-lg)', width: '60%' }}>
           Continue
         </button>

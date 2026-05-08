@@ -170,8 +170,7 @@ html, body {
 }
 
 .answers-column .answer-btn {
-  text-align: right;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .replay-btn {
