@@ -77,6 +77,7 @@ export function GameProvider({ children }) {
       savedAnswers: [],
       grandchildRotationIndex: 0,
       totalQuestionsInRound: GAME_CONFIG.questionsPerRound,
+      allAttempted: false,
     })
     setGameState(newState)
     saveState(newState)
@@ -105,8 +106,9 @@ export function GameProvider({ children }) {
       if (!prev) return prev
       const nextIndex = prev.currentQuestionIndex + 1
       if (nextIndex >= prev.totalQuestionsInRound) {
-        saveState(prev)
-        return prev
+        const updated = { ...prev, allAttempted: true }
+        saveState(updated)
+        return updated
       }
       const updated = {
         ...prev,

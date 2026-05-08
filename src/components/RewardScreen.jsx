@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react'
 import { useGame } from '../hooks/GameContext'
 import { GAME_CONFIG } from '../config'
 
@@ -13,6 +14,12 @@ function RewardScreen({ onPlayAgain, onBack }) {
   const tiles = Array.from({ length: 16 }, (_, i) => i < tilesToShow)
   const photoSrc = `/photos/${grandchild.folder}/1.jpg`
 
+  const [photoFailed, setPhotoFailed] = useState(false)
+
+  useEffect(() => {
+    setPhotoFailed(false)
+  }, [grandchild.name])
+
   const getRelationship = (name) => {
     if (name === 'Richie') return 'grandson'
     if (name === 'Allison') return 'granddaughter'
@@ -26,12 +33,34 @@ function RewardScreen({ onPlayAgain, onBack }) {
       <h2 className="splash-title" style={{ fontSize: 'var(--font-size-heading)' }}>{GAME_CONFIG.subtitles.youDidIt}</h2>
 
       <div style={{ position: 'relative', width: 'min(80vw, 360px)', height: 'min(80vw, 360px)', margin: 'var(--spacing-md) 0' }}>
-        <img
-          src={photoSrc}
-          alt={`${grandchild.name}'s photo`}
-          className="photo-reveal"
-          onError={(e) => { e.target.style.visibility = 'hidden' }}
-        />
+        {!photoFailed ? (
+          <img
+            src={photoSrc}
+            alt={`${grandchild.name}'s photo`}
+            className="photo-reveal"
+            onLoad={() => setPhotoFailed(false)}
+            onError={() => setPhotoFailed(true)}
+          />
+        ) : (
+          <div style={{
+            position: 'absolute',
+            inset: 0,
+            width: '100%',
+            height: '100%',
+            background: 'var(--color-cream)',
+            borderRadius: 'var(--radius)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            flexDirection: 'column',
+            gap: 'var(--spacing-sm)',
+            fontSize: 'var(--font-size-subheading)',
+            color: 'var(--color-text-light)',
+          }}>
+            <span style={{ fontSize: '48px' }}>📷</span>
+            <span>Photo of {grandchild.name}</span>
+          </div>
+        )}
         <div className="photo-grid">
           {tiles.map((revealed, i) => (
             <div key={i} className={`photo-tile ${revealed ? 'removed' : ''}`} />

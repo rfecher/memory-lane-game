@@ -1,10 +1,10 @@
 import { useGame } from '../hooks/GameContext'
 import { GAME_CONFIG } from '../config'
 
-function QuestionScreen({ question, round, total, score, onAnswer, onReplay, onContinue, roundComplete, allQuestionsAttempted }) {
+function QuestionScreen({ question, round, total, score, onAnswer, onReplay, onContinue, roundComplete, allAttempted }) {
   const icon = GAME_CONFIG.subtitles.categoryIcons[question.category] || '⭐'
   const name = GAME_CONFIG.subtitles.categoryNames[question.category] || question.category
-  const showContinue = roundComplete || allQuestionsAttempted
+  const showContinue = roundComplete || allAttempted
 
   return (
     <div className="screen">

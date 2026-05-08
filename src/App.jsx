@@ -80,7 +80,7 @@ function GameContent() {
         onReplay={() => replay(gameState.shuffledQuestions[gameState.currentQuestionIndex]?.question || '', settings.ttsRate)}
         onContinue={handleContinueRound}
         roundComplete={gameState.currentQuestionIndex >= gameState.totalQuestionsInRound}
-        allQuestionsAttempted={gameState.currentQuestionIndex >= gameState.totalQuestionsInRound - 1}
+        allAttempted={gameState.allAttempted}
       />
     ) : null,
     reward: <RewardScreen onPlayAgain={handlePlayAgain} onBack={goBackToMenu} />,
