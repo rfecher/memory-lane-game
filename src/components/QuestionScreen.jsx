@@ -20,14 +20,13 @@ function QuestionScreen({ question, round, total, score, onAnswer, onReplay, onC
       </div>
 
       <div className="answers-column">
-        {['A', 'B', 'C'].map((label, i) => (
+        {question.shuffledAnswers.map((answerIdx, i) => (
           <button
             key={i}
             className="game-btn primary answer-btn"
-            onClick={() => onAnswer(question.shuffledAnswers[i])}
+            onClick={() => onAnswer(answerIdx)}
           >
-            <span style={{ fontWeight: 400, opacity: 0.7, width: '40px' }}>{label}</span>
-            <span>{question.answers[question.shuffledAnswers[i]]}</span>
+            {question.answers[answerIdx]}
           </button>
         ))}
       </div>
