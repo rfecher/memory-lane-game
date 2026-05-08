@@ -51,13 +51,19 @@ Edit `src/config.js` to change:
 
 ### 4. Deploy (automatic)
 
-This repo includes a GitHub Actions workflow. Every time you push to `main`, it builds the app and deploys automatically.
+This repo includes a GitHub Actions workflow. Every time you push to `master`, it builds the app and deploys automatically.
 
-Just commit and push:
+First, make sure Pages is configured to use GitHub Actions:
+
+1. Go to **Settings → Pages**
+2. Under "Source", select **GitHub Actions** (not "Deploy from a branch")
+3. Save
+
+Then commit and push:
 ```bash
 git add .
 git commit -m "Update Memory Lane"
-git push origin main
+git push origin master
 ```
 
 Your game will be live at `https://yourusername.github.io/memory-lane-game/` (usually within 30 seconds).
@@ -89,7 +95,7 @@ Edit `src/questions.json` to add or change questions:
 ## Categories
 
 | Category | Icon | What it's about |
-|----------|------|-----------------|
+|------|----|----|
 | Golden Age | ⭐ | 1960s/70s TV stars and sitcoms |
 | Silver Screen | 🎬 | Classic movies and film stars |
 | Name That Show | 📺 | Describe a TV show, pick the title |
