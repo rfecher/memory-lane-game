@@ -12,7 +12,7 @@ function RewardScreen({ onPlayAgain, onBack }) {
 
   const tilesToShow = Math.min(Math.floor(score * 16 / total), 16)
   const tiles = Array.from({ length: 16 }, (_, i) => i < tilesToShow)
-  const photoSrc = `/photos/${grandchild.folder}/1.jpg`
+  const photoSrc = `${import.meta.env.BASE_URL}photos/${grandchild.folder}/1.jpg`
 
   const [photoFailed, setPhotoFailed] = useState(false)
 
