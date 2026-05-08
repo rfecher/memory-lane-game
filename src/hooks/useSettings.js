@@ -37,7 +37,7 @@ export function useSettings() {
 
   const setSpeechSpeed = useCallback((speed) => {
     setSettings(prev => {
-      const next = { ...prev, ttsRate: speed === 'slow' ? 0.90 : 0.95 }
+      const next = { ...prev, ttsRate: speed === 'slow' ? 0.95 : 1.2 }
       saveSettings(next)
       return next
     })
