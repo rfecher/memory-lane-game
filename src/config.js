@@ -7,7 +7,7 @@ export const GAME_CONFIG = {
   playerName: "Marion",
   questionsPerRound: 5,
   ttsEnabled: true,
-  ttsRate: 0.85,
+  ttsRate: 0.95,
   fontSize: "normal",
   categoryWeights: {
     golden_age: 35,
