@@ -280,12 +280,12 @@
     "category": "golden_age",
     "question": "On 'Gilligan's Island,' what was the skipper's first name?",
     "answers": [
-      "Johnson",
-      "Milo",
+      "Roger",
+      "Horatio",
       "Captain"
     ],
     "correct": 0,
-    "hint": "His full name was Captain Horatio. He loved to sing 'Shut your trap.'"
+    "hint": "His name was Captain Rogers. He loved to sing 'Shut your trap.'"
   },
   {
     "id": "q025",
@@ -368,7 +368,7 @@
       "We'll always have Paris",
       "Louis, I think this is the beginning of a beautiful friendship"
     ],
-    "correct": 0,
+    "correct": 2,
     "hint": "It's spoken earlier in the film during the card game scene."
   },
   {
@@ -400,7 +400,7 @@
     "category": "silver_screen",
     "question": "What was Cary Grant's character doing in the 1959 Hitchcock film 'North by Northwest'?",
     "answers": [
-      "Aadvertising executive mistaken for a government agent",
+      "An advertising executive mistaken for a government agent",
       "A farmer who discovers a spy ring",
       "A museum curator on the run"
     ],
@@ -592,11 +592,11 @@
     "category": "silver_screen",
     "question": "What was Marilyn Monroe's character's name in the 1955 film 'Gentlemen Prefer Blondes'?",
     "answers": [
-      "Lorelei Lee",
       "Sugar Kane",
+      "Lorelei Lee",
       "Marilyn"
     ],
-    "correct": 0,
+    "correct": 1,
     "hint": "She sang 'Diamonds Are a Girl's Best Friend' in the film."
   },
   {
@@ -677,8 +677,8 @@
     "question": "A comedic triad of three unemployed men live in a trash can and wear paper bags to avoid the secret police. What show is this?",
     "answers": [
       "It's Garry Shandling's Show",
-      "It's Garry Shandling's Show",
-      "What Happened to the Family"
+      "The Chevy Chase Show",
+      "Fridays"
     ],
     "correct": 0,
     "hint": "The show was a satirical take on the variety format."

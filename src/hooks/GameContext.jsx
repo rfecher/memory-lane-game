@@ -93,7 +93,7 @@ export function GameProvider({ children }) {
       if (!prev) return prev
       const q = prev.shuffledQuestions[prev.currentQuestionIndex]
       if (!q) return prev
-      const isCorrect = q.shuffledAnswers[answerIndex] === q.correct
+      const isCorrect = answerIndex === q.correct
       const updatedAnswers = [...prev.savedAnswers, { questionId: q.id, correct: isCorrect }]
       const updated = { ...prev, savedAnswers: updatedAnswers, score: isCorrect ? prev.score + 1 : prev.score }
       saveState(updated)
