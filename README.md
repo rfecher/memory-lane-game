@@ -40,6 +40,8 @@ photos/
 
 Each folder should contain photos of that grandchild. Name them `1.jpg` through `5.jpg`. Photos can be `.jpg` or `.png`.
 
+**Important:** If you're updating photos on an existing deployed site, the game may show a cached 404 for photos. Hard refresh the page (Cmd+Shift+R on Mac, Ctrl+Shift+R on Windows) to clear the cached photo responses.
+
 ### 3. Customize the game
 
 Edit `src/config.js` to change:
