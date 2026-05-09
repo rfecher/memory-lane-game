@@ -3,7 +3,11 @@
     "id": "q001",
     "category": "golden_age",
     "question": "She played the witch Samantha on the TV show Bewitched. What was the actress's name?",
-    "answers": ["Elizabeth Montgomery", "Barbara Eden", "Mary Tyler Moore"],
+    "answers": [
+      "Elizabeth Montgomery",
+      "Barbara Eden",
+      "Mary Tyler Moore"
+    ],
     "correct": 0,
     "hint": "Her first name was Elizabeth."
   },
@@ -11,7 +15,11 @@
     "id": "q002",
     "category": "golden_age",
     "question": "Lucille Ball starred in which famous 1950s sitcom?",
-    "answers": ["I Love Lucy", "The Honeymooners", "The Donna Reed Show"],
+    "answers": [
+      "I Love Lucy",
+      "The Honeymooners",
+      "The Donna Reed Show"
+    ],
     "correct": 0,
     "hint": "The title starts with 'I Love'."
   },
@@ -19,7 +27,11 @@
     "id": "q003",
     "category": "golden_age",
     "question": "In 'The Andy Griffith Show,' what was the name of Andy's nephew who lived with him?",
-    "answers": ["Opie", "Ronnie", "Junebug"],
+    "answers": [
+      "Opie",
+      "Ronnie",
+      "Junebug"
+    ],
     "correct": 0,
     "hint": "He often got into mischievous schoolboy adventures."
   },
@@ -27,7 +39,11 @@
     "id": "q004",
     "category": "golden_age",
     "question": "What was the name of the small island in 'Gilligan's Island'?",
-    "answers": ["Innkeep's Island", "Gilligan's Island", "Shipwreck Island"],
+    "answers": [
+      "Innkeep's Island",
+      "Gilligan's Island",
+      "Shipwreck Island"
+    ],
     "correct": 0,
     "hint": "The skipper owned the resort where they worked."
   },
@@ -35,7 +51,11 @@
     "id": "q005",
     "category": "golden_age",
     "question": "Which variety show host was known as 'The King of Comedy' and had a beloved talk show from 1962 to 1996?",
-    "answers": ["Jack Paar", "Ed Sullivan", "Jackie Gleason"],
+    "answers": [
+      "Jack Paar",
+      "Ed Sullivan",
+      "Jackie Gleason"
+    ],
     "correct": 0,
     "hint": "His name was Johnny."
   },
@@ -43,7 +63,11 @@
     "id": "q006",
     "category": "golden_age",
     "question": "On 'The Brady Bunch,' how many children did the Brady family have?",
-    "answers": ["5", "6", "8"],
+    "answers": [
+      "5",
+      "6",
+      "8"
+    ],
     "correct": 0,
     "hint": "Three boys and three girls."
   },
@@ -51,7 +75,11 @@
     "id": "q007",
     "category": "golden_age",
     "question": "Who played the original Dr. Bones on the sitcom 'M*A*S*H'?",
-    "answers": ["Alan Alda", "Wayne Rogers", "McLean Stevenson"],
+    "answers": [
+      "Alan Alda",
+      "Wayne Rogers",
+      "McLean Stevenson"
+    ],
     "correct": 0,
     "hint": "He became the show's most iconic character."
   },
@@ -59,7 +87,11 @@
     "id": "q008",
     "category": "golden_age",
     "question": "What was the name of the diner in 'I Love Lucy' where Ricky worked?",
-    "answers": ["The Tropicana Lounge", "The Coconut Grove", "The Brown Derby"],
+    "answers": [
+      "The Tropicana Lounge",
+      "The Coconut Grove",
+      "The Brown Derby"
+    ],
     "correct": 0,
     "hint": "It was a nightclub in New York City."
   },
@@ -67,7 +99,11 @@
     "id": "q009",
     "category": "golden_age",
     "question": "On 'The Mary Tyler Moore Show,' what was the name of Mary's roommate?",
-    "answers": ["Rhoda", "Phyllis", "Gaerety"],
+    "answers": [
+      "Rhoda",
+      "Phyllis",
+      "Gaerety"
+    ],
     "correct": 0,
     "hint": "She was known for her catchphrase 'I'm marvellous!'"
   },
@@ -75,7 +111,11 @@
     "id": "q010",
     "category": "golden_age",
     "question": "Which iconic 1960s TV show featured a family traveling through time in a time machine made by Grandpa?",
-    "answers": ["Time Tunnel", "The Jetsons", "Mr. Terrific"],
+    "answers": [
+      "Time Tunnel",
+      "The Jetsons",
+      "Mr. Terrific"
+    ],
     "correct": 0,
     "hint": "It was based on a book by Mark Twain."
   },
@@ -83,7 +123,11 @@
     "id": "q011",
     "category": "golden_age",
     "question": "What was the name of the parrot on 'Gilligan's Island'?",
-    "answers": ["No parrot appeared on the show", "Skipper Jr.", "Captain Hook"],
+    "answers": [
+      "No parrot appeared on the show",
+      "Skipper Jr.",
+      "Captain Hook"
+    ],
     "correct": 0,
     "hint": "There actually wasn't a parrot character on the show."
   },
@@ -91,7 +135,11 @@
     "id": "q012",
     "category": "golden_age",
     "question": "Who starred as the wise town mayor in 'The Andy Griffith Show'?",
-    "answers": ["Don Knotts", "Jim Backus", "Harry Morgan"],
+    "answers": [
+      "Don Knotts",
+      "Jim Backus",
+      "Harry Morgan"
+    ],
     "correct": 0,
     "hint": "He played Deputy Sheriff Barney Fife."
   },
@@ -99,7 +147,11 @@
     "id": "q013",
     "category": "golden_age",
     "question": "What was the name of the family in the sitcom 'The Partridge Family'?",
-    "answers": ["The Partridge Family", "The Anderson Family", "The Music Family"],
+    "answers": [
+      "The Partridge Family",
+      "The Anderson Family",
+      "The Music Family"
+    ],
     "correct": 0,
     "hint": "Their name was the surname of their mother."
   },
@@ -107,7 +159,11 @@
     "id": "q014",
     "category": "golden_age",
     "question": "Which TV magician had a pet tiger named Julius on his 1960s variety show?",
-    "answers": ["Harry Houdini", "Dante the Mighty", "Bill Bixby"],
+    "answers": [
+      "Harry Houdini",
+      "Dante the Mighty",
+      "Bill Bixby"
+    ],
     "correct": 0,
     "hint": "He was a real magician, not an actor playing one."
   },
@@ -115,7 +171,11 @@
     "id": "q015",
     "category": "golden_age",
     "question": "In the 'I Love Lucy' episode where Lucy and Ethel work in a chocolate factory, what goes wrong?",
-    "answers": ["The conveyor belt speeds up and they can't keep up", "The chocolate melts", "The machine breaks down"],
+    "answers": [
+      "The conveyor belt speeds up and they can't keep up",
+      "The chocolate melts",
+      "The machine breaks down"
+    ],
     "correct": 0,
     "hint": "They stuff chocolates in their mouths, hats, and pockets."
   },
@@ -123,7 +183,11 @@
     "id": "q016",
     "category": "golden_age",
     "question": "What was the name of the ship that was wrecked on Gilligan's Island?",
-    "answers": ["The S.S. Minnow", "The S.S. Pacific", "The S.S. Discovery"],
+    "answers": [
+      "The S.S. Minnow",
+      "The S.S. Pacific",
+      "The S.S. Discovery"
+    ],
     "correct": 0,
     "hint": "It was owned by the Howells, the wealthy couple on the tour."
   },
@@ -131,7 +195,11 @@
     "id": "q017",
     "category": "golden_age",
     "question": "Which sitcom featured the character 'Fonzie' or 'The Fonz'?",
-    "answers": ["Happy Days", "Laverne & Shirley", "WKRP in Cincinnati"],
+    "answers": [
+      "Happy Days",
+      "Laverne & Shirley",
+      "WKRP in Cincinnati"
+    ],
     "correct": 0,
     "hint": "He wore a leather jacket and said 'Ayyy!'"
   },
@@ -139,7 +207,11 @@
     "id": "q018",
     "category": "golden_age",
     "question": "What was the name of the schoolteacher in 'Gilligan's Island'?",
-    "answers": ["The Professor", "Mr. Krabs", "The Teacher"],
+    "answers": [
+      "The Professor",
+      "Mr. Krabs",
+      "The Teacher"
+    ],
     "correct": 0,
     "hint": "He tried to build things from the wreckage with his knowledge."
   },
@@ -147,7 +219,11 @@
     "id": "q019",
     "category": "golden_age",
     "question": "In what city did 'I Love Lucy' take place?",
-    "answers": ["New York City", "Chicago", "Los Angeles"],
+    "answers": [
+      "New York City",
+      "Chicago",
+      "Los Angeles"
+    ],
     "correct": 0,
     "hint": "Ricky and Lucy lived in an apartment above a shop there."
   },
@@ -155,7 +231,11 @@
     "id": "q020",
     "category": "golden_age",
     "question": "Which 1960s cartoon featured a family of pink dinosaurs who lived next to the Flintstones?",
-    "answers": ["The Jetsons", "The Addams Family", "The Smurfs"],
+    "answers": [
+      "The Jetsons",
+      "The Addams Family",
+      "The Smurfs"
+    ],
     "correct": 0,
     "hint": "They lived in the sky and had a flying car."
   },
@@ -163,7 +243,11 @@
     "id": "q021",
     "category": "golden_age",
     "question": "Who played the title character in the classic sitcom 'Bewitched'?",
-    "answers": ["Samantha Stephens", "Endora", "Darrin Stephens"],
+    "answers": [
+      "Samantha Stephens",
+      "Endora",
+      "Darrin Stephens"
+    ],
     "correct": 0,
     "hint": "She was the powerful witch who married a mortal man."
   },
@@ -171,7 +255,11 @@
     "id": "q022",
     "category": "golden_age",
     "question": "What was the name of the poor but lovable janitor in 'All in the Family'?",
-    "answers": ["Archie Bunker", "Ed Bunker", "Mike Stivic"],
+    "answers": [
+      "Archie Bunker",
+      "Ed Bunker",
+      "Mike Stivic"
+    ],
     "correct": 0,
     "hint": "He lived on Kinkow Street and loved his meatloaf."
   },
@@ -179,7 +267,11 @@
     "id": "q023",
     "category": "golden_age",
     "question": "Which variety show featured the 'Laugh-In' sketch comedy troupe?",
-    "answers": ["Caesars Palace", "Rowan & Martin's Laugh-In", "The Dean Martin Show"],
+    "answers": [
+      "Caesars Palace",
+      "Rowan & Martin's Laugh-In",
+      "The Dean Martin Show"
+    ],
     "correct": 0,
     "hint": "It was famous for catchphrases like 'Sock it to me!'"
   },
@@ -187,7 +279,11 @@
     "id": "q024",
     "category": "golden_age",
     "question": "On 'Gilligan's Island,' what was the skipper's first name?",
-    "answers": ["Johnson", "Milo", "Captain"],
+    "answers": [
+      "Johnson",
+      "Milo",
+      "Captain"
+    ],
     "correct": 0,
     "hint": "His full name was Captain Horatio. He loved to sing 'Shut your trap.'"
   },
@@ -195,7 +291,11 @@
     "id": "q025",
     "category": "golden_age",
     "question": "What type of animal was Lassie, the famous TV and movie dog?",
-    "answers": ["Collie", "Shepherd", "Retriever"],
+    "answers": [
+      "Collie",
+      "Shepherd",
+      "Retriever"
+    ],
     "correct": 0,
     "hint": "She had a beautiful white ruff around her neck."
   },
@@ -203,7 +303,11 @@
     "id": "q026",
     "category": "golden_age",
     "question": "Which 1970s sitcom starred a widowed father raising three daughters with the help of their neighbor Mrs. Garrett?",
-    "answers": ["The Facts of Life", "Diff'rent Strokes", "What's Happening!"],
+    "answers": [
+      "The Facts of Life",
+      "Diff'rent Strokes",
+      "What's Happening!"
+    ],
     "correct": 0,
     "hint": "The show was named after the father character."
   },
@@ -211,7 +315,11 @@
     "id": "q027",
     "category": "golden_age",
     "question": "In the original 'Star Trek' series, what was the name of Captain Kirk's first officer?",
-    "answers": ["Spock", "Montgomery Scott", "Nyota Uhura"],
+    "answers": [
+      "Spock",
+      "Montgomery Scott",
+      "Nyota Uhura"
+    ],
     "correct": 0,
     "hint": "He was half-Vulcan and said 'Live long and prosper.'"
   },
@@ -219,7 +327,11 @@
     "id": "q028",
     "category": "golden_age",
     "question": "What was the name of the Honeymooners' wife, who often told her husband to 'kiddo, go take a bath'?",
-    "answers": ["Alice", "Flo", "Edna"],
+    "answers": [
+      "Alice",
+      "Flo",
+      "Edna"
+    ],
     "correct": 0,
     "hint": "She was the voice of reason to Ralph Kramden's big schemes."
   },
@@ -227,7 +339,11 @@
     "id": "q029",
     "category": "golden_age",
     "question": "Which 1960s cartoon show featured a boy and his dog who often solved mysteries?",
-    "answers": ["Scooby-Doo", "The New Addams Family", "Josie and the Pussycats"],
+    "answers": [
+      "Scooby-Doo",
+      "The New Addams Family",
+      "Josie and the Pussycats"
+    ],
     "correct": 0,
     "hint": "Scooby and the gang would always say 'let's split up' to find clues."
   },
@@ -235,7 +351,11 @@
     "id": "q030",
     "category": "golden_age",
     "question": "What was the name of the candy salesman character on 'The Honeymooners'?",
-    "answers": ["Ralph Kramden", "Ed Norton", "Alice Kramden"],
+    "answers": [
+      "Ralph Kramden",
+      "Ed Norton",
+      "Alice Kramden"
+    ],
     "correct": 0,
     "hint": "He was a bus driver who constantly dreamed of getting rich quick."
   },
@@ -243,7 +363,11 @@
     "id": "q031",
     "category": "silver_screen",
     "question": "In 'Casablanca,' what does Rick Blaine say to Ilsa at the end of the film?",
-    "answers": ["Here's looking at you, kid", "We'll always have Paris", "Louis, I think this is the beginning of a beautiful friendship"],
+    "answers": [
+      "Here's looking at you, kid",
+      "We'll always have Paris",
+      "Louis, I think this is the beginning of a beautiful friendship"
+    ],
     "correct": 0,
     "hint": "It's spoken earlier in the film during the card game scene."
   },
@@ -251,7 +375,11 @@
     "id": "q032",
     "category": "silver_screen",
     "question": "Which 1939 film features Judy Garland as Dorothy Gale traveling to the Land of Oz?",
-    "answers": ["The Wizard of Oz", "Meet Me in St. Louis", "The Harvey Girls"],
+    "answers": [
+      "The Wizard of Oz",
+      "Meet Me in St. Louis",
+      "The Harvey Girls"
+    ],
     "correct": 0,
     "hint": "The silver shoes in the movie became ruby slippers."
   },
@@ -259,7 +387,11 @@
     "id": "q033",
     "category": "silver_screen",
     "question": "Who starred as the legendary cowboy in the 1946 film 'My Darling Clementine'?",
-    "answers": ["Henry Fonda", "John Wayne", "Gary Cooper"],
+    "answers": [
+      "Henry Fonda",
+      "John Wayne",
+      "Gary Cooper"
+    ],
     "correct": 0,
     "hint": "He played the same role as Ethan Edwards in 'The Searchers.'"
   },
@@ -267,7 +399,11 @@
     "id": "q034",
     "category": "silver_screen",
     "question": "What was Cary Grant's character doing in the 1959 Hitchcock film 'North by Northwest'?",
-    "answers": ["Aadvertising executive mistaken for a government agent", "A farmer who discovers a spy ring", "A museum curator on the run"],
+    "answers": [
+      "Aadvertising executive mistaken for a government agent",
+      "A farmer who discovers a spy ring",
+      "A museum curator on the run"
+    ],
     "correct": 0,
     "hint": "He was running for his life across the United States."
   },
@@ -275,7 +411,11 @@
     "id": "q035",
     "category": "silver_screen",
     "question": "Which actress was known as 'The Girl Next Door' and starred in many 1940s and 1950s films?",
-    "answers": ["Jane Russell", "Rita Hayworth", "Marilyn Monroe"],
+    "answers": [
+      "Jane Russell",
+      "Rita Hayworth",
+      "Marilyn Monroe"
+    ],
     "correct": 0,
     "hint": "She starred in 'Gentlemen Prefer Blondes' and 'How to Marry a Millionaire.'"
   },
@@ -283,7 +423,11 @@
     "id": "q036",
     "category": "silver_screen",
     "question": "In 'It's a Wonderful Life,' what is the name of George Bailey's guardian angel?",
-    "answers": ["Clarence Odbody", "Sam", "Henry"],
+    "answers": [
+      "Clarence Odbody",
+      "Sam",
+      "Henry"
+    ],
     "correct": 0,
     "hint": "His wings don't get off until he gets his wings."
   },
@@ -291,7 +435,11 @@
     "id": "q037",
     "category": "silver_screen",
     "question": "What 1942 war film starred Humphrey Bogart as Captain Peter Gunn defending a ship from a U-boat?",
-    "answers": ["The Sea Wolf", "Inglorious Bastards", "The Maltese Falcon"],
+    "answers": [
+      "The Sea Wolf",
+      "Inglorious Bastards",
+      "The Maltese Falcon"
+    ],
     "correct": 0,
     "hint": "The ship was being escorted through enemy waters."
   },
@@ -299,7 +447,11 @@
     "id": "q038",
     "category": "silver_screen",
     "question": "Who directed and starred in the 1940 film 'The Great Dictator'?",
-    "answers": ["Charlie Chaplin", "Orson Welles", "Howard Hawks"],
+    "answers": [
+      "Charlie Chaplin",
+      "Orson Welles",
+      "Howard Hawks"
+    ],
     "correct": 0,
     "hint": "He played both a Jewish barber and a dictator named Adenoid Hynkel."
   },
@@ -307,7 +459,11 @@
     "id": "q039",
     "category": "silver_screen",
     "question": "In which city does the 1951 film 'A Place in the Sun' take place?",
-    "answers": ["The film does not take place in a specific named city", "New York City", "Los Angeles"],
+    "answers": [
+      "The film does not take place in a specific named city",
+      "New York City",
+      "Los Angeles"
+    ],
     "correct": 0,
     "hint": "The story was adapted from Theodore Dreiser's novel 'An American Tragedy.'"
   },
@@ -315,7 +471,11 @@
     "id": "q040",
     "category": "silver_screen",
     "question": "What was the name of the dinosaur in the 1933 blockbuster that was the first of its kind?",
-    "answers": ["The film never named the dinosaur", "Tyrannosaurus", "Godzilla"],
+    "answers": [
+      "King Kong",
+      "Tyrannosaurus",
+      "Godzilla"
+    ],
     "correct": 0,
     "hint": "The film's original title was simply 'King Kong.'"
   },
@@ -323,7 +483,11 @@
     "id": "q041",
     "category": "silver_screen",
     "question": "Which actress played Scarlett O'Hara in 'Gone with the Wind'?",
-    "answers": ["Vivien Leigh", "Ingrid Bergman", "Bette Davis"],
+    "answers": [
+      "Vivien Leigh",
+      "Ingrid Bergman",
+      "Bette Davis"
+    ],
     "correct": 0,
     "hint": "She won her first Academy Award for this role at age 21."
   },
@@ -331,7 +495,11 @@
     "id": "q042",
     "category": "silver_screen",
     "question": "What famous line does Audrey Hepburn's character say in 'Roman Holiday'?",
-    "answers": ["I can't remember the exact quote, but the film has no single famous repeated line like that", "You can't handle the truth!", "Here's looking at you, kid"],
+    "answers": [
+      "I can't remember the exact quote, but the film has no single famous repeated line like that",
+      "You can't handle the truth!",
+      "Here's looking at you, kid"
+    ],
     "correct": 0,
     "hint": "The film is known for its romantic scenes, not a single catchphrase."
   },
@@ -339,7 +507,11 @@
     "id": "q043",
     "category": "silver_screen",
     "question": "In the 1942 film 'Now, Voyager,' which actress played the lead female role?",
-    "answers": ["Bette Davis", "Joan Crawford", "Greta Garbo"],
+    "answers": [
+      "Bette Davis",
+      "Joan Crawford",
+      "Greta Garbo"
+    ],
     "correct": 0,
     "hint": "She was known for her dramatic roles and distinctive cat-eye makeup."
   },
@@ -347,7 +519,11 @@
     "id": "q044",
     "category": "silver_screen",
     "question": "What was the name of the 1946 film where a man wishes he'd never been born?",
-    "answers": ["It's a Wonderful Life", "The Miracle on 34th Street", "Miracle on 34th Street"],
+    "answers": [
+      "It's a Wonderful Life",
+      "The Miracle on 34th Street",
+      "Miracle on 34th Street"
+    ],
     "correct": 0,
     "hint": "It was directed by Frank Capra and starred James Stewart."
   },
@@ -355,7 +531,11 @@
     "id": "q045",
     "category": "silver_screen",
     "question": "Who played the lead role in the 1953 film 'Roman Holiday' alongside Gregory Peck?",
-    "answers": ["Audrey Hepburn", "Grace Kelly", "Ingrid Bergman"],
+    "answers": [
+      "Audrey Hepburn",
+      "Grace Kelly",
+      "Ingrid Bergman"
+    ],
     "correct": 0,
     "hint": "This film launched her career and she won her first Oscar for it."
   },
@@ -363,7 +543,11 @@
     "id": "q046",
     "category": "silver_screen",
     "question": "In 'The Wizard of Oz,' what does the Scarecrow wish for from the Wizard?",
-    "answers": ["A brain", "A heart", "Courage"],
+    "answers": [
+      "A brain",
+      "A heart",
+      "Courage"
+    ],
     "correct": 0,
     "hint": "He believed he couldn't think properly without one."
   },
@@ -371,7 +555,11 @@
     "id": "q047",
     "category": "silver_screen",
     "question": "Which classic film features the line 'Frankly, my dear, I don't give a damn'?",
-    "answers": ["Gone with the Wind", "The Maltese Falcon", "Citizen Kane"],
+    "answers": [
+      "Gone with the Wind",
+      "The Maltese Falcon",
+      "Citizen Kane"
+    ],
     "correct": 0,
     "hint": "It was spoken by Rhett Butler at the end of the film."
   },
@@ -379,7 +567,11 @@
     "id": "q048",
     "category": "silver_screen",
     "question": "What was the name of the town in the 1946 film 'It's a Wonderful Life'?",
-    "answers": ["Bedford Falls", "Shawshank", "Springfield"],
+    "answers": [
+      "Bedford Falls",
+      "Shawshank",
+      "Springfield"
+    ],
     "correct": 0,
     "hint": "George Bailey dreamed of leaving it for New York City."
   },
@@ -387,7 +579,11 @@
     "id": "q049",
     "category": "silver_screen",
     "question": "In the 1954 Hitchcock film 'Rear Window,' what is James Stewart's character's profession?",
-    "answers": ["A photographer", "A detective", "A doctor"],
+    "answers": [
+      "A photographer",
+      "A detective",
+      "A doctor"
+    ],
     "correct": 0,
     "hint": "He is confined to a cast and watches his neighbors through a window."
   },
@@ -395,7 +591,11 @@
     "id": "q050",
     "category": "silver_screen",
     "question": "What was Marilyn Monroe's character's name in the 1955 film 'Gentlemen Prefer Blondes'?",
-    "answers": ["Lorelei Lee", "Sugar Kane", "Marilyn"],
+    "answers": [
+      "Lorelei Lee",
+      "Sugar Kane",
+      "Marilyn"
+    ],
     "correct": 0,
     "hint": "She sang 'Diamonds Are a Girl's Best Friend' in the film."
   },
@@ -403,7 +603,11 @@
     "id": "q051",
     "category": "silver_screen",
     "question": "Which actor played the title role in the 1941 film 'Citizen Kane'?",
-    "answers": ["Orson Welles", "Humphrey Bogart", "Cary Grant"],
+    "answers": [
+      "Harrison Ford",
+      "Bogart",
+      "Cary Grant"
+    ],
     "correct": 0,
     "hint": "He was only 25 years old when he wrote, directed, and starred in it."
   },
@@ -411,7 +615,11 @@
     "id": "q052",
     "category": "silver_screen",
     "question": "In which 1951 film does Humphrey Bogart play a casino owner in Morocco?",
-    "answers": ["Casablanca", "The African Queen", "The Maltese Falcon"],
+    "answers": [
+      "Casablanca",
+      "The African Queen",
+      "The Maltese Falcon"
+    ],
     "correct": 0,
     "hint": "It takes place during World War II in North Africa."
   },
@@ -419,7 +627,11 @@
     "id": "q053",
     "category": "silver_screen",
     "question": "What was the name of the lion in 'The Wizard of Oz'?",
-    "answers": ["The film never gave him a specific name", "Leo", "Cowardly"],
+    "answers": [
+      "The film never gave him a specific name",
+      "Leo",
+      "Cowardly"
+    ],
     "correct": 0,
     "hint": "He wanted courage but kept proving himself brave throughout the journey."
   },
@@ -427,7 +639,11 @@
     "id": "q054",
     "category": "silver_screen",
     "question": "Who played Ruby Keeler's love interest in the 1933 musical 'Gold Diggers of 1933'?",
-    "answers": ["James Cagney", "Fred Astaire", "Bob Hope"],
+    "answers": [
+      "James Cagney",
+      "Fred Astaire",
+      "Bob Hope"
+    ],
     "correct": 0,
     "hint": "He was known for his tap dancing and tough-guy roles."
   },
@@ -435,7 +651,11 @@
     "id": "q055",
     "category": "silver_screen",
     "question": "In the 1960 film 'Psycho,' what is the name of the mysterious motel owner?",
-    "answers": ["Norman Bates", "Lester Bates", "Sam Loomis"],
+    "answers": [
+      "Norman Bates",
+      "Lester Bates",
+      "Sam Loomis"
+    ],
     "correct": 0,
     "hint": "He lived with his 'mother' at the motel on the side of the road."
   },
@@ -443,7 +663,11 @@
     "id": "q056",
     "category": "silver_screen",
     "question": "Which 1964 musical starred Julie Andrews as a governess to naval captains children?",
-    "answers": ["Mary Poppins", "The Sound of Music", "My Fair Lady"],
+    "answers": [
+      "Mary Poppins",
+      "The Sound of Music",
+      "My Fair Lady"
+    ],
     "correct": 0,
     "hint": "The family lived in Vienna and the children sang 'do re mi.'"
   },
@@ -451,7 +675,11 @@
     "id": "q057",
     "category": "name_that_show",
     "question": "A comedic triad of three unemployed men live in a trash can and wear paper bags to avoid the secret police. What show is this?",
-    "answers": ["It's Garry Shandling's Show", "It's Garry Shandling's Show", "What Happened to the Family"],
+    "answers": [
+      "It's Garry Shandling's Show",
+      "It's Garry Shandling's Show",
+      "What Happened to the Family"
+    ],
     "correct": 0,
     "hint": "The show was a satirical take on the variety format."
   },
@@ -459,7 +687,11 @@
     "id": "q058",
     "category": "name_that_show",
     "question": "A woman lives in a New York apartment while her husband is away on a top secret government assignment. She frequently breaks the fourth wall to talk to the camera. What show is this?",
-    "answers": ["I Love Lucy", "Honey West", "The Dick Van Dyke Show"],
+    "answers": [
+      "I Love Lucy",
+      "Honey West",
+      "The Dick Van Dyke Show"
+    ],
     "correct": 0,
     "hint": "Lucy and Ricky were the main characters."
   },
@@ -467,7 +699,11 @@
     "id": "q059",
     "category": "name_that_show",
     "question": "A widowed father named Mike runs a restaurant with his three daughters and their friend Rhoda. What show is this?",
-    "answers": ["The Facts of Life", "Three's Company", "The Jeffersons"],
+    "answers": [
+      "The Facts of Life",
+      "Three's Company",
+      "The Jeffersons"
+    ],
     "correct": 0,
     "hint": "Ed McMahon played the father, and it was set in Philadelphia."
   },
@@ -475,7 +711,11 @@
     "id": "q060",
     "category": "name_that_show",
     "question": "A poor but lovable janitor named Archie Bunker argues with his liberal son-in-law Ed in a basement apartment in Queens. What show is this?",
-    "answers": ["All in the Family", "The Jeffersons", "Good Times"],
+    "answers": [
+      "All in the Family",
+      "The Jeffersons",
+      "Good Times"
+    ],
     "correct": 0,
     "hint": "It was based on a British show called 'Till Death Us Do Part.'"
   },
@@ -483,7 +723,11 @@
     "id": "q061",
     "category": "name_that_show",
     "question": "A shy psychiatrist named Frasier moves to Seattle and hosts a radio call-in show after his father moves in. What show is this?",
-    "answers": ["Frasier", "Cheers", "Wings"],
+    "answers": [
+      "Frasier",
+      "Cheers",
+      "Wings"
+    ],
     "correct": 0,
     "hint": "It was a spin-off of 'Cheers' and aired on NBC."
   },
@@ -491,7 +735,11 @@
     "id": "q062",
     "category": "name_that_show",
     "question": "Two space probes crash-land on Earth. The aliens adopt a human family who raise them and use their powers to fight crime. What show is this?",
-    "answers": ["The Little Rascals", "Captain Kangaroo", "My Favorite Martians"],
+    "answers": [
+      "The Little Rascals",
+      "Captain Kangaroo",
+      "My Favorite Martians"
+    ],
     "correct": 0,
     "hint": "The show was originally titled 'It's a Planet' before it became 'My Favorite Martian.'"
   },
@@ -499,7 +747,11 @@
     "id": "q063",
     "category": "name_that_show",
     "question": "In a world where everyone is obese except for one man who is extremely thin, what show is this?",
-    "answers": ["The Honeymooners", "That's My Boy", "All in the Family"],
+    "answers": [
+      "The Honeymooners",
+      "That's My Boy",
+      "All in the Family"
+    ],
     "correct": 0,
     "hint": "The show starred John Ritter as the thin man married to a tall, strong woman."
   },
@@ -507,7 +759,11 @@
     "id": "q064",
     "category": "name_that_show",
     "question": "A biker gang leader runs a small motorcycle shop in a fictional California town and often serves as an unofficial town consultant. What show is this?",
-    "answers": ["The A-Team", "Chopper Chicks in Zombietown", "Pete and Gladys"],
+    "answers": [
+      "The A-Team",
+      "Chopper Chicks in Zombietown",
+      "Pete and Gladys"
+    ],
     "correct": 0,
     "hint": "The show was created by Arthur Hiller and George Gittins."
   },
@@ -515,7 +771,11 @@
     "id": "q065",
     "category": "name_that_show",
     "question": "A wealthy industrialist and his wife hire a young widow to live in their basement apartment, leading to many comedic situations. What show is this?",
-    "answers": ["Three's Company", "Good Times", "The Big Bang Theory"],
+    "answers": [
+      "Three's Company",
+      "Good Times",
+      "The Big Bang Theory"
+    ],
     "correct": 0,
     "hint": "Jack Tripper was the bumbling man who lived there with two women."
   },
@@ -523,7 +783,11 @@
     "id": "q066",
     "category": "name_that_show",
     "question": "A young woman named Matilda moves to Hollywood to become an actress and shares an apartment with three other women. What show is this?",
-    "answers": ["3rd Rock from the Sun", "That's My Boy", "That Girl"],
+    "answers": [
+      "3rd Rock from the Sun",
+      "That's My Boy",
+      "That Girl"
+    ],
     "correct": 0,
     "hint": "The show aired in the 1960s and was one of the first to feature a woman renting her own apartment."
   },
@@ -531,7 +795,11 @@
     "id": "q067",
     "category": "word_play",
     "question": "Which word means the same as HAPPY?",
-    "answers": ["Joyful", "Angry", "Sleepy"],
+    "answers": [
+      "Joyful",
+      "Angry",
+      "Sleepy"
+    ],
     "correct": 0,
     "hint": "It's a positive emotion."
   },
@@ -539,7 +807,11 @@
     "id": "q068",
     "category": "word_play",
     "question": "Which word rhymes with MOON?",
-    "answers": ["Spoon", "Star", "Bell"],
+    "answers": [
+      "Spoon",
+      "Star",
+      "Bell"
+    ],
     "correct": 0,
     "hint": "It starts with the letter S and has four letters."
   },
@@ -547,7 +819,11 @@
     "id": "q069",
     "category": "word_play",
     "question": "What word is the opposite of HEAVY?",
-    "answers": ["Light", "Dark", "Soft"],
+    "answers": [
+      "Light",
+      "Dark",
+      "Soft"
+    ],
     "correct": 0,
     "hint": "A feather is this, while a rock is its opposite."
   },
@@ -555,7 +831,11 @@
     "id": "q070",
     "category": "word_play",
     "question": "Mary had a little ____. What word completes the rhyme?",
-    "answers": ["Lamb", "Dog", "Hat"],
+    "answers": [
+      "Lamb",
+      "Dog",
+      "Hat"
+    ],
     "correct": 0,
     "hint": "It was a fluffy white farm animal."
   },
@@ -563,7 +843,11 @@
     "id": "q071",
     "category": "word_play",
     "question": "Which word is most similar to BRAVE?",
-    "answers": ["Fearless", "Shy", "Quiet"],
+    "answers": [
+      "Fearless",
+      "Shy",
+      "Quiet"
+    ],
     "correct": 0,
     "hint": "It means not afraid."
   },
@@ -571,7 +855,11 @@
     "id": "q072",
     "category": "word_play",
     "question": "Which word rhymes with LIGHT?",
-    "answers": ["Night", "Bright", "Sight"],
+    "answers": [
+      "Night",
+      "Bright",
+      "Sight"
+    ],
     "correct": 0,
     "hint": "They all rhyme with each other, but the most common rhyme is also one of the options."
   },
@@ -579,7 +867,11 @@
     "id": "q073",
     "category": "word_play",
     "question": "Which word is the opposite of BOLD?",
-    "answers": ["Timid", "Strong", "Loud"],
+    "answers": [
+      "Timid",
+      "Strong",
+      "Loud"
+    ],
     "correct": 0,
     "hint": "A shy person shows this quality."
   },
@@ -587,7 +879,11 @@
     "id": "q074",
     "category": "word_play",
     "question": "Which word means the same as COLD?",
-    "answers": ["Frigid", "Warm", "Hot"],
+    "answers": [
+      "Frigid",
+      "Warm",
+      "Hot"
+    ],
     "correct": 0,
     "hint": "It's an extreme temperature."
   },
@@ -595,7 +891,11 @@
     "id": "q075",
     "category": "word_play",
     "question": "What word completes this phrase: 'As busy as a ____'?",
-    "answers": ["Bee", "Ant", "Bird"],
+    "answers": [
+      "Bee",
+      "Ant",
+      "Bird"
+    ],
     "correct": 0,
     "hint": "It makes honey and has stripes."
   },
@@ -603,7 +903,11 @@
     "id": "q076",
     "category": "word_play",
     "question": "Which word is the opposite of WIDE?",
-    "answers": ["Narrow", "Long", "Tall"],
+    "answers": [
+      "Narrow",
+      "Long",
+      "Tall"
+    ],
     "correct": 0,
     "hint": "A tiny alley has this quality."
   },
@@ -611,7 +915,11 @@
     "id": "q077",
     "category": "everyday",
     "question": "What is the largest ocean on Earth?",
-    "answers": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean"],
+    "answers": [
+      "Pacific Ocean",
+      "Atlantic Ocean",
+      "Indian Ocean"
+    ],
     "correct": 0,
     "hint": "It lies between Asia and the Americas."
   },
@@ -619,7 +927,11 @@
     "id": "q078",
     "category": "everyday",
     "question": "What is the largest mammal in the world?",
-    "answers": ["Blue Whale", "African Elephant", "Giraffe"],
+    "answers": [
+      "Blue Whale",
+      "African Elephant",
+      "Giraffe"
+    ],
     "correct": 0,
     "hint": "It lives in the ocean and has a heart the size of a small car."
   },
@@ -627,7 +939,11 @@
     "id": "q079",
     "category": "everyday",
     "question": "What gas do plants absorb from the air to make food?",
-    "answers": ["Carbon dioxide", "Oxygen", "Nitrogen"],
+    "answers": [
+      "Carbon dioxide",
+      "Oxygen",
+      "Nitrogen"
+    ],
     "correct": 0,
     "hint": "Humans exhale this gas, and plants use it for photosynthesis."
   },
@@ -635,7 +951,11 @@
     "id": "q080",
     "category": "everyday",
     "question": "What is the largest continent by land area?",
-    "answers": ["Asia", "Africa", "North America"],
+    "answers": [
+      "Asia",
+      "Africa",
+      "North America"
+    ],
     "correct": 0,
     "hint": "It includes countries like China, India, and Japan."
   },
@@ -643,7 +963,11 @@
     "id": "q081",
     "category": "everyday",
     "question": "How many hearts does an octopus have?",
-    "answers": ["3", "2", "4"],
+    "answers": [
+      "3",
+      "2",
+      "4"
+    ],
     "correct": 0,
     "hint": "It's more than you'd expect for a sea creature!"
   },
@@ -651,7 +975,11 @@
     "id": "q082",
     "category": "everyday",
     "question": "What is the tallest type of tree in the world?",
-    "answers": ["Redwood", "Oak", "Pine"],
+    "answers": [
+      "Redwood",
+      "Oak",
+      "Pine"
+    ],
     "correct": 0,
     "hint": "They grow along the coast of California and can reach over 300 feet."
   },
@@ -659,7 +987,11 @@
     "id": "q083",
     "category": "everyday",
     "question": "What is the hardest natural substance on Earth?",
-    "answers": ["Diamond", "Quartz", "Granite"],
+    "answers": [
+      "Diamond",
+      "Quartz",
+      "Granite"
+    ],
     "correct": 0,
     "hint": "It's used in jewelry and cutting tools."
   },
@@ -667,7 +999,11 @@
     "id": "q084",
     "category": "everyday",
     "question": "What is the smallest country in the world by land area?",
-    "answers": ["Vatican City", "Monaco", "San Marino"],
+    "answers": [
+      "Vatican City",
+      "Monaco",
+      "San Marino"
+    ],
     "correct": 0,
     "hint": "It's located entirely within the city of Rome."
   },
@@ -675,7 +1011,11 @@
     "id": "q085",
     "category": "everyday",
     "question": "What color is a ruby?",
-    "answers": ["Red", "Blue", "Green"],
+    "answers": [
+      "Red",
+      "Blue",
+      "Green"
+    ],
     "correct": 0,
     "hint": "It's the color of blood or a fire engine."
   },
@@ -683,7 +1023,11 @@
     "id": "q086",
     "category": "everyday",
     "question": "What is the name of the longest river in the world?",
-    "answers": ["Nile River", "Amazon River", "Mississippi River"],
+    "answers": [
+      "Nile River",
+      "Amazon River",
+      "Mississippi River"
+    ],
     "correct": 0,
     "hint": "It flows through northeastern Africa."
   },
@@ -691,7 +1035,11 @@
     "id": "q087",
     "category": "everyday",
     "question": "What type of animal is a 'kingfisher'?",
-    "answers": ["A bird", "A fish", "A reptile"],
+    "answers": [
+      "A bird",
+      "A fish",
+      "A reptile"
+    ],
     "correct": 0,
     "hint": "It dives from the air into water to catch fish."
   },
@@ -699,7 +1047,11 @@
     "id": "q088",
     "category": "everyday",
     "question": "How many legs does a spider have?",
-    "answers": ["8", "6", "10"],
+    "answers": [
+      "8",
+      "6",
+      "10"
+    ],
     "correct": 0,
     "hint": "It's more than an insect's six legs."
   },
@@ -707,7 +1059,11 @@
     "id": "q089",
     "category": "everyday",
     "question": "What is the main ingredient in guacamole?",
-    "answers": ["Avocado", "Tomato", "Onion"],
+    "answers": [
+      "Avocado",
+      "Tomato",
+      "Onion"
+    ],
     "correct": 0,
     "hint": "It's a green fruit from a tree."
   },
@@ -715,7 +1071,11 @@
     "id": "q090",
     "category": "everyday",
     "question": "What is the name of the layer of gases surrounding Earth?",
-    "answers": ["Atmosphere", "Stratosphere", "Magnetosphere"],
+    "answers": [
+      "Atmosphere",
+      "Stratosphere",
+      "Magnetosphere"
+    ],
     "correct": 0,
     "hint": "It protects us from the sun's harmful rays."
   },
@@ -723,7 +1083,11 @@
     "id": "q091",
     "category": "everyday",
     "question": "Which animal is known as the 'King of the Jungle'?",
-    "answers": ["Lion", "Tiger", "Elephant"],
+    "answers": [
+      "Lion",
+      "Tiger",
+      "Elephant"
+    ],
     "correct": 0,
     "hint": "Males have a distinctive mane around their neck."
   },
@@ -731,7 +1095,11 @@
     "id": "q092",
     "category": "everyday",
     "question": "What is the boiling point of water in Fahrenheit?",
-    "answers": ["212", "100", "180"],
+    "answers": [
+      "212",
+      "100",
+      "180"
+    ],
     "correct": 0,
     "hint": "It's above 200 degrees."
   }
