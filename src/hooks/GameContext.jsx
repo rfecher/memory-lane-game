@@ -26,12 +26,17 @@ function shuffleAnswers(question) {
 
 function createNewRound(prevState) {
   const cat = pickWeightedCategory()
+  const allowedDifficulties = GAME_CONFIG.difficultyMap[prevState.roundNumber] || ['easy']
   const byCategory = {}
   questions.forEach(q => {
     if (!byCategory[q.category]) byCategory[q.category] = []
     byCategory[q.category].push(q)
   })
-  const shuffled = shuffleArray(byCategory[cat] || [])
+  const pool = (byCategory[cat] || [])
+    .filter(q => allowedDifficulties.includes(q.difficulty))
+  // Fallback: if filtered pool is too small, use all questions from the category
+  const sourcePool = pool.length >= GAME_CONFIG.questionsPerRound ? pool : (byCategory[cat] || [])
+  const shuffled = shuffleArray(sourcePool)
     .slice(0, GAME_CONFIG.questionsPerRound)
     .map(q => ({ ...q, shuffledAnswers: shuffleAnswers(q) }))
   return {

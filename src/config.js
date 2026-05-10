@@ -1,4 +1,9 @@
 export const GAME_CONFIG = {
+  difficultyMap: {
+    1: ['easy'],
+    2: ['easy', 'medium'],
+  },
+  questionsPerRound: 5,
   grandchildren: [
     { name: "Richie", folder: "richie", age: 10, emoji: "\u{1F9E1}" },
     { name: "Allison", folder: "allison", age: 8, emoji: "\u{1F338}" },
