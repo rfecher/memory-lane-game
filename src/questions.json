@@ -38,23 +38,23 @@
   {
     "id": "q004",
     "category": "golden_age",
-    "question": "What was the name of the small island in 'Gilligan's Island'?",
+    "question": "What famous actress and dancer was part of the seven castaways on the S.S. Minnow?",
     "answers": [
-      "Innkeep's Island",
-      "Gilligan's Island",
-      "Shipwreck Island"
+      "Ginger Grant",
+      "Doris Day",
+      "Jane Russell"
     ],
     "correct": 0,
-    "hint": "The skipper owned the resort where they worked."
+    "hint": "She was a burlesque-style performer known for her glamorous dresses and the 'shimmy.'"
   },
   {
     "id": "q005",
     "category": "golden_age",
     "question": "Which variety show host was known as 'The King of Comedy' and had a beloved talk show from 1962 to 1996?",
     "answers": [
+      "Johnny Carson",
       "Jack Paar",
-      "Ed Sullivan",
-      "Jackie Gleason"
+      "Ed Sullivan"
     ],
     "correct": 0,
     "hint": "His name was Johnny."
@@ -92,7 +92,7 @@
       "The Coconut Grove",
       "The Brown Derby"
     ],
-    "correct": 0,
+    "correct": 1,
     "hint": "It was a nightclub in New York City."
   },
   {
@@ -110,14 +110,14 @@
   {
     "id": "q010",
     "category": "golden_age",
-    "question": "Which iconic 1960s TV show featured a family traveling through time in a time machine made by Grandpa?",
+    "question": "Which iconic 1960s sci-fi TV show featured a tunnel through time connecting the 1900s to the year 2026?",
     "answers": [
-      "Time Tunnel",
+      "The Time Tunnel",
       "The Jetsons",
-      "Mr. Terrific"
+      "Time Tunnel II"
     ],
     "correct": 0,
-    "hint": "It was based on a book by Mark Twain."
+    "hint": "The project was run by Dr. Donald Watson and Dr. Alan Halsey."
   },
   {
     "id": "q011",
@@ -158,14 +158,14 @@
   {
     "id": "q014",
     "category": "golden_age",
-    "question": "Which TV magician had a pet tiger named Julius on his 1960s variety show?",
+    "question": "Which TV magician had a pet tiger named Julius on his 1950s variety show?",
     "answers": [
-      "Harry Houdini",
       "Dante the Mighty",
+      "Harry Houdini",
       "Bill Bixby"
     ],
     "correct": 0,
-    "hint": "He was a real magician, not an actor playing one."
+    "hint": "He was a real magician who performed on TV, not an actor playing one."
   },
   {
     "id": "q015",
@@ -278,14 +278,14 @@
   {
     "id": "q024",
     "category": "golden_age",
-    "question": "On 'Gilligan's Island,' what was the skipper's first name?",
+    "question": "What was the first name of the Skipper on 'Gilligan's Island'?",
     "answers": [
-      "Roger",
+      "Link",
       "Horatio",
       "Captain"
     ],
     "correct": 0,
-    "hint": "His name was Captain Rogers. He loved to sing 'Shut your trap.'"
+    "hint": "He was always called 'the Skipper' and his name was Link."
   },
   {
     "id": "q025",
@@ -434,14 +434,14 @@
   {
     "id": "q037",
     "category": "silver_screen",
-    "question": "What 1942 war film starred Humphrey Bogart as Captain Peter Gunn defending a ship from a U-boat?",
+    "question": "What 1943 Humphrey Bogart film follows a merchant marine sailor fighting survivors after his ship is torpedoed by a German U-boat?",
     "answers": [
-      "The Sea Wolf",
-      "Inglorious Bastards",
+      "Action in the North",
+      "Inglourious Bastards",
       "The Maltese Falcon"
     ],
     "correct": 0,
-    "hint": "The ship was being escorted through enemy waters."
+    "hint": "Bogart's character pulls a woman from the ocean after the attack begins."
   },
   {
     "id": "q038",
@@ -602,14 +602,14 @@
   {
     "id": "q051",
     "category": "silver_screen",
-    "question": "Which actor played the title role in the 1941 film 'Citizen Kane'?",
+    "question": "Which actor wrote, directed, and starred as the title character in the 1941 film 'Citizen Kane'?",
     "answers": [
-      "Harrison Ford",
-      "Bogart",
-      "Cary Grant"
+      "Orson Welles",
+      "Humphrey Bogart",
+      "Gary Cooper"
     ],
     "correct": 0,
-    "hint": "He was only 25 years old when he wrote, directed, and starred in it."
+    "hint": "He was only 25 years old when he made his film debut with this movie."
   },
   {
     "id": "q052",
@@ -662,13 +662,13 @@
   {
     "id": "q056",
     "category": "silver_screen",
-    "question": "Which 1964 musical starred Julie Andrews as a governess to naval captains children?",
+    "question": "Which 1964 musical starred Julie Andrews as a governess to naval captain's children?",
     "answers": [
-      "Mary Poppins",
+      "My Fair Lady",
       "The Sound of Music",
-      "My Fair Lady"
+      "Mary Poppins"
     ],
-    "correct": 0,
+    "correct": 1,
     "hint": "The family lived in Vienna and the children sang 'do re mi.'"
   },
   {
@@ -686,26 +686,26 @@
   {
     "id": "q058",
     "category": "name_that_show",
-    "question": "A woman lives in a New York apartment while her husband is away on a top secret government assignment. She frequently breaks the fourth wall to talk to the camera. What show is this?",
+    "question": "A glamorous female private investigator works as a stuntwoman by day and a spy by night. Her assistant is a short, bespectacled man named Duckie. What show is this?",
     "answers": [
-      "I Love Lucy",
       "Honey West",
+      "I Love Lucy",
       "The Dick Van Dyke Show"
     ],
     "correct": 0,
-    "hint": "Lucy and Ricky were the main characters."
+    "hint": "Stefanie Powers starred as the daring adventurer in this 1965 ABC series."
   },
   {
     "id": "q059",
     "category": "name_that_show",
-    "question": "A widowed father named Mike runs a restaurant with his three daughters and their friend Rhoda. What show is this?",
+    "question": "A mild-mannered police officer in Boston moves in with a widow and her two daughters. What show is this?",
     "answers": [
-      "The Facts of Life",
+      "Pete & Gladys",
       "Three's Company",
       "The Jeffersons"
     ],
     "correct": 0,
-    "hint": "Ed McMahon played the father, and it was set in Philadelphia."
+    "hint": "The lead was played by Ed McMahon."
   },
   {
     "id": "q060",
@@ -734,43 +734,43 @@
   {
     "id": "q062",
     "category": "name_that_show",
-    "question": "Two space probes crash-land on Earth. The aliens adopt a human family who raise them and use their powers to fight crime. What show is this?",
+    "question": "An alien from the planet Orak is sent to Earth to study humans. He lives with a TV producer and his wife in Denver. What show is this?",
     "answers": [
-      "The Little Rascals",
-      "Captain Kangaroo",
-      "My Favorite Martians"
+      "Mork & Mindy",
+      "My Favorite Martian",
+      "The Little Rascals"
     ],
     "correct": 0,
-    "hint": "The show was originally titled 'It's a Planet' before it became 'My Favorite Martian.'"
+    "hint": "The alien's favorite food was licorice, and he said 'Nanny nanna moo moo!'"
   },
   {
     "id": "q063",
     "category": "name_that_show",
-    "question": "In a world where everyone is obese except for one man who is extremely thin, what show is this?",
+    "question": "A thin man with a big smile runs a motorcycle shop and marries a tall, strong woman. What show is this?",
     "answers": [
+      "Three's Company",
       "The Honeymooners",
-      "That's My Boy",
-      "All in the Family"
+      "That's My Boy"
     ],
     "correct": 0,
-    "hint": "The show starred John Ritter as the thin man married to a tall, strong woman."
+    "hint": "The show starred John Ritter and had a famous 'shake, shake' comedy routine."
   },
   {
     "id": "q064",
     "category": "name_that_show",
-    "question": "A biker gang leader runs a small motorcycle shop in a fictional California town and often serves as an unofficial town consultant. What show is this?",
+    "question": "A man in a leather jacket rides a motorcycle, says 'Ayyy!', and works at a drive-in restaurant. What show is this?",
     "answers": [
+      "Happy Days",
       "The A-Team",
-      "Chopper Chicks in Zombietown",
-      "Pete and Gladys"
+      "Mork & Mindy"
     ],
     "correct": 0,
-    "hint": "The show was created by Arthur Hiller and George Gittins."
+    "hint": "It was a spin-off of 'Laverne & Shirley' and was set in Milwaukee."
   },
   {
     "id": "q065",
     "category": "name_that_show",
-    "question": "A wealthy industrialist and his wife hire a young widow to live in their basement apartment, leading to many comedic situations. What show is this?",
+    "question": "A young man who can't afford rent pretends to be gay to live with two single women in an apartment. What show is this?",
     "answers": [
       "Three's Company",
       "Good Times",
