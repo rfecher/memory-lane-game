@@ -229,31 +229,6 @@ html, body {
   100% { transform: rotateY(0deg); opacity: 1; }
 }
 
-.photo-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  gap: 2px;
-  width: min(80vw, 360px);
-  height: min(80vw, 360px);
-  position: absolute;
-  inset: 0;
-  margin: var(--spacing-md) 0;
-  border-radius: var(--radius);
-  pointer-events: none;
-}
-
-.photo-tile {
-  background: var(--color-cream);
-  border-radius: 2px;
-  transition: opacity var(--transition-speed);
-}
-
-.photo-tile.removed {
-  opacity: 0;
-  pointer-events: none;
-}
-
 .photo-reveal {
   position: absolute;
   inset: 0;

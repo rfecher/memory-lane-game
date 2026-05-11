@@ -42,7 +42,7 @@ function GameContent() {
   const handleAnswer = useCallback((index) => {
     const q = gameState.shuffledQuestions?.[gameState.currentQuestionIndex]
     if (!q) return
-    const isCorrect = q.shuffledAnswers[index] === q.correct
+    const isCorrect = q.answers[q.shuffledAnswers[index]] === q.correctAnswer
     answerQuestion(index)
     if (isCorrect) {
       playCorrect()

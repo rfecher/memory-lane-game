@@ -10,7 +10,8 @@
       "Elizabeth Montgomery"
     ],
     "correct": 2,
-    "hint": "Her first name was Elizabeth."
+    "hint": "Her first name was Elizabeth.",
+    "correctAnswer": "Elizabeth Montgomery"
   },
   {
     "id": "q002",
@@ -23,7 +24,8 @@
       "The Honeymooners"
     ],
     "correct": 1,
-    "hint": "The title starts with 'I Love'."
+    "hint": "The title starts with 'I Love'.",
+    "correctAnswer": "I Love Lucy"
   },
   {
     "id": "q003",
@@ -36,7 +38,8 @@
       "Ronnie Howard"
     ],
     "correct": 0,
-    "hint": "He was played by Ron Howard."
+    "hint": "He was played by Ron Howard.",
+    "correctAnswer": "Opie Taylor"
   },
   {
     "id": "q004",
@@ -49,7 +52,8 @@
       "Mary Ann Summers"
     ],
     "correct": 1,
-    "hint": "She was known for her glamorous gowns."
+    "hint": "She was known for her glamorous gowns.",
+    "correctAnswer": "Ginger Grant"
   },
   {
     "id": "q005",
@@ -62,7 +66,8 @@
       "Jack Paar"
     ],
     "correct": 0,
-    "hint": "His first name was Johnny."
+    "hint": "His first name was Johnny.",
+    "correctAnswer": "Johnny Carson"
   },
   {
     "id": "q006",
@@ -75,7 +80,8 @@
       "8"
     ],
     "correct": 1,
-    "hint": "There were three boys and three girls."
+    "hint": "There were three boys and three girls.",
+    "correctAnswer": "6"
   },
   {
     "id": "q007",
@@ -88,7 +94,8 @@
       "Alan Alda"
     ],
     "correct": 2,
-    "hint": "He became the show's most iconic character."
+    "hint": "He became the show's most iconic character.",
+    "correctAnswer": "Alan Alda"
   },
   {
     "id": "q008",
@@ -101,7 +108,8 @@
       "Club Babalu"
     ],
     "correct": 0,
-    "hint": "It was a nightclub in New York City."
+    "hint": "It was a nightclub in New York City.",
+    "correctAnswer": "The Tropicana"
   },
   {
     "id": "q009",
@@ -114,7 +122,8 @@
       "Sue Ann Nivens"
     ],
     "correct": 1,
-    "hint": "She was played by Valerie Harper."
+    "hint": "She was played by Valerie Harper.",
+    "correctAnswer": "Rhoda Morgenstern"
   },
   {
     "id": "q010",
@@ -127,7 +136,8 @@
       "The Jetsons"
     ],
     "correct": 0,
-    "hint": "The time project was called Project Tic-Toc."
+    "hint": "The time project was called Project Tic-Toc.",
+    "correctAnswer": "The Time Tunnel"
   },
   {
     "id": "q011",
@@ -140,7 +150,8 @@
       "The Professor"
     ],
     "correct": 0,
-    "hint": "The show was named after him."
+    "hint": "The show was named after him.",
+    "correctAnswer": "Gilligan"
   },
   {
     "id": "q012",
@@ -153,7 +164,8 @@
       "Jim Nabors"
     ],
     "correct": 1,
-    "hint": "He was Andy Taylor's nervous deputy."
+    "hint": "He was Andy Taylor's nervous deputy.",
+    "correctAnswer": "Don Knotts"
   },
   {
     "id": "q013",
@@ -166,7 +178,8 @@
       "Bradford"
     ],
     "correct": 0,
-    "hint": "It was also the title of the show."
+    "hint": "It was also the title of the show.",
+    "correctAnswer": "Partridge"
   },
   {
     "id": "q014",
@@ -179,7 +192,8 @@
       "I Dream of Jeannie"
     ],
     "correct": 2,
-    "hint": "Larry Hagman played the astronaut who found her bottle."
+    "hint": "Larry Hagman played the astronaut who found her bottle.",
+    "correctAnswer": "I Dream of Jeannie"
   },
   {
     "id": "q015",
@@ -192,7 +206,8 @@
       "The chocolate melts"
     ],
     "correct": 1,
-    "hint": "They stuff chocolates in their mouths, hats, and pockets."
+    "hint": "They stuff chocolates in their mouths, hats, and pockets.",
+    "correctAnswer": "The conveyor belt speeds up and they can't keep up"
   },
   {
     "id": "q016",
@@ -205,7 +220,8 @@
       "The S.S. Minnow"
     ],
     "correct": 2,
-    "hint": "It was the tiny tour boat on a three-hour tour."
+    "hint": "It was the tiny tour boat on a three-hour tour.",
+    "correctAnswer": "The S.S. Minnow"
   },
   {
     "id": "q017",
@@ -218,7 +234,8 @@
       "WKRP in Cincinnati"
     ],
     "correct": 0,
-    "hint": "He wore a leather jacket and said 'Ayyy!'."
+    "hint": "He wore a leather jacket and said 'Ayyy!'.",
+    "correctAnswer": "Happy Days"
   },
   {
     "id": "q018",
@@ -231,7 +248,8 @@
       "The Skipper"
     ],
     "correct": 0,
-    "hint": "He tried to build useful gadgets from island materials."
+    "hint": "He tried to build useful gadgets from island materials.",
+    "correctAnswer": "The Professor"
   },
   {
     "id": "q019",
@@ -244,7 +262,8 @@
       "New York City"
     ],
     "correct": 2,
-    "hint": "Lucy and Ricky lived in an apartment there."
+    "hint": "Lucy and Ricky lived in an apartment there.",
+    "correctAnswer": "New York City"
   },
   {
     "id": "q020",
@@ -257,7 +276,8 @@
       "The Flintstones"
     ],
     "correct": 0,
-    "hint": "They lived in the future and had a robot maid named Rosie."
+    "hint": "They lived in the future and had a robot maid named Rosie.",
+    "correctAnswer": "The Jetsons"
   },
   {
     "id": "q021",
@@ -270,7 +290,8 @@
       "Jeannie"
     ],
     "correct": 1,
-    "hint": "She married a mortal man named Darrin."
+    "hint": "She married a mortal man named Darrin.",
+    "correctAnswer": "Samantha Stephens"
   },
   {
     "id": "q022",
@@ -283,7 +304,8 @@
       "Mike Stivic"
     ],
     "correct": 1,
-    "hint": "He often argued from his famous armchair."
+    "hint": "He often argued from his famous armchair.",
+    "correctAnswer": "Archie Bunker"
   },
   {
     "id": "q023",
@@ -296,7 +318,8 @@
       "Rowan & Martin's Laugh-In"
     ],
     "correct": 2,
-    "hint": "Its hosts were Dan Rowan and Dick Martin."
+    "hint": "Its hosts were Dan Rowan and Dick Martin.",
+    "correctAnswer": "Rowan & Martin's Laugh-In"
   },
   {
     "id": "q024",
@@ -309,7 +332,8 @@
       "Thurston"
     ],
     "correct": 0,
-    "hint": "His full name was Jonas Grumby."
+    "hint": "His full name was Jonas Grumby.",
+    "correctAnswer": "Jonas"
   },
   {
     "id": "q025",
@@ -322,7 +346,8 @@
       "Golden Retriever"
     ],
     "correct": 1,
-    "hint": "She had a beautiful white ruff around her neck."
+    "hint": "She had a beautiful white ruff around her neck.",
+    "correctAnswer": "Collie"
   },
   {
     "id": "q026",
@@ -335,7 +360,8 @@
       "The Brady Bunch"
     ],
     "correct": 0,
-    "hint": "The family lived in San Francisco."
+    "hint": "The family lived in San Francisco.",
+    "correctAnswer": "Full House"
   },
   {
     "id": "q027",
@@ -348,7 +374,8 @@
       "Spock"
     ],
     "correct": 2,
-    "hint": "He was half-Vulcan and said 'Live long and prosper.'"
+    "hint": "He was half-Vulcan and said 'Live long and prosper.'",
+    "correctAnswer": "Spock"
   },
   {
     "id": "q028",
@@ -361,7 +388,8 @@
       "Trixie Norton"
     ],
     "correct": 1,
-    "hint": "She was often the voice of reason to Ralph's big schemes."
+    "hint": "She was often the voice of reason to Ralph's big schemes.",
+    "correctAnswer": "Alice Kramden"
   },
   {
     "id": "q029",
@@ -374,7 +402,8 @@
       "Josie and the Pussycats"
     ],
     "correct": 1,
-    "hint": "The dog was named Scooby-Doo."
+    "hint": "The dog was named Scooby-Doo.",
+    "correctAnswer": "Scooby-Doo, Where Are You!"
   },
   {
     "id": "q030",
@@ -387,7 +416,8 @@
       "Bus driver"
     ],
     "correct": 2,
-    "hint": "He drove a bus for the Gotham Bus Company."
+    "hint": "He drove a bus for the Gotham Bus Company.",
+    "correctAnswer": "Bus driver"
   },
   {
     "id": "q031",
@@ -400,7 +430,8 @@
       "Here's looking at you, kid"
     ],
     "correct": 2,
-    "hint": "It is one of Rick's recurring lines to Ilsa."
+    "hint": "It is one of Rick's recurring lines to Ilsa.",
+    "correctAnswer": "Here's looking at you, kid"
   },
   {
     "id": "q032",
@@ -413,7 +444,8 @@
       "Meet Me in St. Louis"
     ],
     "correct": 0,
-    "hint": "The silver shoes in the book became ruby slippers in the movie."
+    "hint": "The silver shoes in the book became ruby slippers in the movie.",
+    "correctAnswer": "The Wizard of Oz"
   },
   {
     "id": "q033",
@@ -426,7 +458,8 @@
       "John Wayne"
     ],
     "correct": 0,
-    "hint": "He also starred in The Grapes of Wrath and 12 Angry Men."
+    "hint": "He also starred in The Grapes of Wrath and 12 Angry Men.",
+    "correctAnswer": "Henry Fonda"
   },
   {
     "id": "q034",
@@ -439,7 +472,8 @@
       "A museum curator on the run"
     ],
     "correct": 1,
-    "hint": "He is an advertising executive pulled into a spy plot."
+    "hint": "He is an advertising executive pulled into a spy plot.",
+    "correctAnswer": "A government agent"
   },
   {
     "id": "q035",
@@ -452,7 +486,8 @@
       "Jane Russell"
     ],
     "correct": 0,
-    "hint": "She was also a popular singer."
+    "hint": "She was also a popular singer.",
+    "correctAnswer": "Doris Day"
   },
   {
     "id": "q036",
@@ -465,7 +500,8 @@
       "Clarence Odbody"
     ],
     "correct": 2,
-    "hint": "He is an angel second class trying to earn his wings."
+    "hint": "He is an angel second class trying to earn his wings.",
+    "correctAnswer": "Clarence Odbody"
   },
   {
     "id": "q037",
@@ -478,7 +514,8 @@
       "To Have and Have Not"
     ],
     "correct": 1,
-    "hint": "Bogart plays Lt. Joe Rossi."
+    "hint": "Bogart plays Lt. Joe Rossi.",
+    "correctAnswer": "Action in the North Atlantic"
   },
   {
     "id": "q038",
@@ -491,7 +528,8 @@
       "Charlie Chaplin"
     ],
     "correct": 2,
-    "hint": "He played both a Jewish barber and a dictator named Adenoid Hynkel."
+    "hint": "He played both a Jewish barber and a dictator named Adenoid Hynkel.",
+    "correctAnswer": "Charlie Chaplin"
   },
   {
     "id": "q039",
@@ -504,7 +542,8 @@
       "Montgomery Clift"
     ],
     "correct": 2,
-    "hint": "He received an Oscar nomination for the role."
+    "hint": "He received an Oscar nomination for the role.",
+    "correctAnswer": "Montgomery Clift"
   },
   {
     "id": "q040",
@@ -517,7 +556,8 @@
       "Godzilla"
     ],
     "correct": 1,
-    "hint": "The film's title was simply King Kong."
+    "hint": "The film's title was simply King Kong.",
+    "correctAnswer": "King Kong"
   },
   {
     "id": "q041",
@@ -530,7 +570,8 @@
       "Bette Davis"
     ],
     "correct": 1,
-    "hint": "She won an Academy Award for the role."
+    "hint": "She won an Academy Award for the role.",
+    "correctAnswer": "Vivien Leigh"
   },
   {
     "id": "q042",
@@ -543,7 +584,8 @@
       "Rome"
     ],
     "correct": 2,
-    "hint": "The title gives a clue to the location."
+    "hint": "The title gives a clue to the location.",
+    "correctAnswer": "Rome"
   },
   {
     "id": "q043",
@@ -556,7 +598,8 @@
       "Greta Garbo"
     ],
     "correct": 0,
-    "hint": "She was known for her dramatic roles and distinctive eyes."
+    "hint": "She was known for her dramatic roles and distinctive eyes.",
+    "correctAnswer": "Bette Davis"
   },
   {
     "id": "q044",
@@ -569,7 +612,8 @@
       "Miracle on 34th Street"
     ],
     "correct": 1,
-    "hint": "It was directed by Frank Capra and starred James Stewart."
+    "hint": "It was directed by Frank Capra and starred James Stewart.",
+    "correctAnswer": "It's a Wonderful Life"
   },
   {
     "id": "q045",
@@ -582,7 +626,8 @@
       "Audrey Hepburn"
     ],
     "correct": 2,
-    "hint": "This film helped launch her career and won her an Oscar."
+    "hint": "This film helped launch her career and won her an Oscar.",
+    "correctAnswer": "Audrey Hepburn"
   },
   {
     "id": "q046",
@@ -595,7 +640,8 @@
       "A heart"
     ],
     "correct": 1,
-    "hint": "He believed he could not think properly without one."
+    "hint": "He believed he could not think properly without one.",
+    "correctAnswer": "A brain"
   },
   {
     "id": "q047",
@@ -608,7 +654,8 @@
       "Gone with the Wind"
     ],
     "correct": 2,
-    "hint": "It was spoken by Rhett Butler near the end of the film."
+    "hint": "It was spoken by Rhett Butler near the end of the film.",
+    "correctAnswer": "Gone with the Wind"
   },
   {
     "id": "q048",
@@ -621,7 +668,8 @@
       "Shawshank"
     ],
     "correct": 1,
-    "hint": "George Bailey dreamed of leaving it to see the world."
+    "hint": "George Bailey dreamed of leaving it to see the world.",
+    "correctAnswer": "Bedford Falls"
   },
   {
     "id": "q049",
@@ -634,7 +682,8 @@
       "Doctor"
     ],
     "correct": 0,
-    "hint": "He watches his neighbors while recovering from a broken leg."
+    "hint": "He watches his neighbors while recovering from a broken leg.",
+    "correctAnswer": "Photographer"
   },
   {
     "id": "q050",
@@ -647,7 +696,8 @@
       "Sugar Kane"
     ],
     "correct": 1,
-    "hint": "She sang 'Diamonds Are a Girl's Best Friend' in the film."
+    "hint": "She sang 'Diamonds Are a Girl's Best Friend' in the film.",
+    "correctAnswer": "Lorelei Lee"
   },
   {
     "id": "q051",
@@ -660,7 +710,8 @@
       "Orson Welles"
     ],
     "correct": 2,
-    "hint": "He was only 25 when the film was released."
+    "hint": "He was only 25 when the film was released.",
+    "correctAnswer": "Orson Welles"
   },
   {
     "id": "q052",
@@ -673,7 +724,8 @@
       "The Maltese Falcon"
     ],
     "correct": 0,
-    "hint": "It takes place during World War II in North Africa."
+    "hint": "It takes place during World War II in North Africa.",
+    "correctAnswer": "Casablanca"
   },
   {
     "id": "q053",
@@ -686,7 +738,8 @@
       "The Brave Lion"
     ],
     "correct": 0,
-    "hint": "He wanted courage but often proved braver than he thought."
+    "hint": "He wanted courage but often proved braver than he thought.",
+    "correctAnswer": "The Cowardly Lion"
   },
   {
     "id": "q054",
@@ -699,7 +752,8 @@
       "Fred Astaire"
     ],
     "correct": 1,
-    "hint": "He was a popular musical leading man of the 1930s."
+    "hint": "He was a popular musical leading man of the 1930s.",
+    "correctAnswer": "Dick Powell"
   },
   {
     "id": "q055",
@@ -712,7 +766,8 @@
       "Norman Bates"
     ],
     "correct": 2,
-    "hint": "He lived with his 'mother' at the motel."
+    "hint": "He lived with his 'mother' at the motel.",
+    "correctAnswer": "Norman Bates"
   },
   {
     "id": "q056",
@@ -725,7 +780,8 @@
       "The Sound of Music"
     ],
     "correct": 2,
-    "hint": "The story is set in Austria and includes 'Do-Re-Mi'."
+    "hint": "The story is set in Austria and includes 'Do-Re-Mi'.",
+    "correctAnswer": "The Sound of Music"
   },
   {
     "id": "q057",
@@ -738,7 +794,8 @@
       "The Chevy Chase Show"
     ],
     "correct": 0,
-    "hint": "The title includes the star's full name."
+    "hint": "The title includes the star's full name.",
+    "correctAnswer": "It's Garry Shandling's Show"
   },
   {
     "id": "q058",
@@ -751,7 +808,8 @@
       "I Love Lucy"
     ],
     "correct": 1,
-    "hint": "Anne Francis starred as the detective."
+    "hint": "Anne Francis starred as the detective.",
+    "correctAnswer": "Honey West"
   },
   {
     "id": "q059",
@@ -764,7 +822,8 @@
       "Pete & Gladys"
     ],
     "correct": 2,
-    "hint": "The title is the couple's first names."
+    "hint": "The title is the couple's first names.",
+    "correctAnswer": "Pete & Gladys"
   },
   {
     "id": "q060",
@@ -777,7 +836,8 @@
       "All in the Family"
     ],
     "correct": 2,
-    "hint": "It was based on a British show called Till Death Us Do Part."
+    "hint": "It was based on a British show called Till Death Us Do Part.",
+    "correctAnswer": "All in the Family"
   },
   {
     "id": "q061",
@@ -790,7 +850,8 @@
       "Cheers"
     ],
     "correct": 0,
-    "hint": "It was a spin-off of Cheers and aired on NBC."
+    "hint": "It was a spin-off of Cheers and aired on NBC.",
+    "correctAnswer": "Frasier"
   },
   {
     "id": "q062",
@@ -803,7 +864,8 @@
       "The Little Rascals"
     ],
     "correct": 1,
-    "hint": "The alien said 'Nanu nanu!'."
+    "hint": "The alien said 'Nanu nanu!'.",
+    "correctAnswer": "Mork & Mindy"
   },
   {
     "id": "q063",
@@ -816,7 +878,8 @@
       "The Honeymooners"
     ],
     "correct": 2,
-    "hint": "Jackie Gleason starred as Ralph."
+    "hint": "Jackie Gleason starred as Ralph.",
+    "correctAnswer": "The Honeymooners"
   },
   {
     "id": "q064",
@@ -829,7 +892,8 @@
       "The A-Team"
     ],
     "correct": 0,
-    "hint": "The character was Arthur 'Fonzie' Fonzarelli."
+    "hint": "The character was Arthur 'Fonzie' Fonzarelli.",
+    "correctAnswer": "Happy Days"
   },
   {
     "id": "q065",
@@ -842,7 +906,8 @@
       "Three's Company"
     ],
     "correct": 2,
-    "hint": "Jack Tripper was the bumbling roommate."
+    "hint": "Jack Tripper was the bumbling roommate.",
+    "correctAnswer": "Three's Company"
   },
   {
     "id": "q066",
@@ -855,7 +920,8 @@
       "3rd Rock from the Sun"
     ],
     "correct": 1,
-    "hint": "Marlo Thomas starred in this 1960s sitcom."
+    "hint": "Marlo Thomas starred in this 1960s sitcom.",
+    "correctAnswer": "That Girl"
   },
   {
     "id": "q067",
@@ -868,7 +934,8 @@
       "Joyful"
     ],
     "correct": 2,
-    "hint": "It's a positive emotion."
+    "hint": "It's a positive emotion.",
+    "correctAnswer": "Joyful"
   },
   {
     "id": "q068",
@@ -881,7 +948,8 @@
       "Star"
     ],
     "correct": 0,
-    "hint": "It starts with the letter S and has five letters."
+    "hint": "It starts with the letter S and has five letters.",
+    "correctAnswer": "Spoon"
   },
   {
     "id": "q069",
@@ -894,7 +962,8 @@
       "Light"
     ],
     "correct": 2,
-    "hint": "A feather is this, while a rock is its opposite."
+    "hint": "A feather is this, while a rock is its opposite.",
+    "correctAnswer": "Light"
   },
   {
     "id": "q070",
@@ -907,7 +976,8 @@
       "Lamb"
     ],
     "correct": 2,
-    "hint": "It was a fluffy white farm animal."
+    "hint": "It was a fluffy white farm animal.",
+    "correctAnswer": "Lamb"
   },
   {
     "id": "q071",
@@ -920,7 +990,8 @@
       "Quiet"
     ],
     "correct": 0,
-    "hint": "It means not afraid."
+    "hint": "It means not afraid.",
+    "correctAnswer": "Fearless"
   },
   {
     "id": "q072",
@@ -933,7 +1004,8 @@
       "Lamp"
     ],
     "correct": 0,
-    "hint": "It also describes the dark part of the day."
+    "hint": "It also describes the dark part of the day.",
+    "correctAnswer": "Night"
   },
   {
     "id": "q073",
@@ -946,7 +1018,8 @@
       "Timid"
     ],
     "correct": 2,
-    "hint": "A shy person may show this quality."
+    "hint": "A shy person may show this quality.",
+    "correctAnswer": "Timid"
   },
   {
     "id": "q074",
@@ -959,7 +1032,8 @@
       "Hot"
     ],
     "correct": 0,
-    "hint": "It describes a very low temperature."
+    "hint": "It describes a very low temperature.",
+    "correctAnswer": "Frigid"
   },
   {
     "id": "q075",
@@ -972,7 +1046,8 @@
       "Ant"
     ],
     "correct": 0,
-    "hint": "It makes honey and has stripes."
+    "hint": "It makes honey and has stripes.",
+    "correctAnswer": "Bee"
   },
   {
     "id": "q076",
@@ -985,7 +1060,8 @@
       "Long"
     ],
     "correct": 1,
-    "hint": "A tiny alley may have this quality."
+    "hint": "A tiny alley may have this quality.",
+    "correctAnswer": "Narrow"
   },
   {
     "id": "q077",
@@ -998,7 +1074,8 @@
       "Atlantic Ocean"
     ],
     "correct": 0,
-    "hint": "It lies between Asia and the Americas."
+    "hint": "It lies between Asia and the Americas.",
+    "correctAnswer": "Pacific Ocean"
   },
   {
     "id": "q078",
@@ -1011,7 +1088,8 @@
       "Giraffe"
     ],
     "correct": 1,
-    "hint": "It lives in the ocean."
+    "hint": "It lives in the ocean.",
+    "correctAnswer": "Blue whale"
   },
   {
     "id": "q079",
@@ -1024,7 +1102,8 @@
       "Oxygen"
     ],
     "correct": 1,
-    "hint": "Humans exhale this gas, and plants use it for photosynthesis."
+    "hint": "Humans exhale this gas, and plants use it for photosynthesis.",
+    "correctAnswer": "Carbon dioxide"
   },
   {
     "id": "q080",
@@ -1037,7 +1116,8 @@
       "North America"
     ],
     "correct": 0,
-    "hint": "It includes countries like China, India, and Japan."
+    "hint": "It includes countries like China, India, and Japan.",
+    "correctAnswer": "Asia"
   },
   {
     "id": "q081",
@@ -1050,7 +1130,8 @@
       "4"
     ],
     "correct": 0,
-    "hint": "It's more than one."
+    "hint": "It's more than one.",
+    "correctAnswer": "3"
   },
   {
     "id": "q082",
@@ -1063,7 +1144,8 @@
       "Oak"
     ],
     "correct": 1,
-    "hint": "They grow along the coast of California and can reach over 300 feet."
+    "hint": "They grow along the coast of California and can reach over 300 feet.",
+    "correctAnswer": "Coast redwood"
   },
   {
     "id": "q083",
@@ -1076,7 +1158,8 @@
       "Diamond"
     ],
     "correct": 2,
-    "hint": "It's used in jewelry and cutting tools."
+    "hint": "It's used in jewelry and cutting tools.",
+    "correctAnswer": "Diamond"
   },
   {
     "id": "q084",
@@ -1089,7 +1172,8 @@
       "San Marino"
     ],
     "correct": 1,
-    "hint": "It's located entirely within the city of Rome."
+    "hint": "It's located entirely within the city of Rome.",
+    "correctAnswer": "Vatican City"
   },
   {
     "id": "q085",
@@ -1102,7 +1186,8 @@
       "Green"
     ],
     "correct": 0,
-    "hint": "It's the color of blood or a fire engine."
+    "hint": "It's the color of blood or a fire engine.",
+    "correctAnswer": "Red"
   },
   {
     "id": "q086",
@@ -1115,7 +1200,8 @@
       "Nile River"
     ],
     "correct": 2,
-    "hint": "It flows through northeastern Africa."
+    "hint": "It flows through northeastern Africa.",
+    "correctAnswer": "Nile River"
   },
   {
     "id": "q087",
@@ -1128,7 +1214,8 @@
       "A bird"
     ],
     "correct": 2,
-    "hint": "It dives from the air into water to catch fish."
+    "hint": "It dives from the air into water to catch fish.",
+    "correctAnswer": "A bird"
   },
   {
     "id": "q088",
@@ -1141,7 +1228,8 @@
       "6"
     ],
     "correct": 1,
-    "hint": "It's more than an insect's six legs."
+    "hint": "It's more than an insect's six legs.",
+    "correctAnswer": "8"
   },
   {
     "id": "q089",
@@ -1154,7 +1242,8 @@
       "Onion"
     ],
     "correct": 0,
-    "hint": "It's a green fruit from a tree."
+    "hint": "It's a green fruit from a tree.",
+    "correctAnswer": "Avocado"
   },
   {
     "id": "q090",
@@ -1167,7 +1256,8 @@
       "Atmosphere"
     ],
     "correct": 2,
-    "hint": "It protects life on Earth."
+    "hint": "It protects life on Earth.",
+    "correctAnswer": "Atmosphere"
   },
   {
     "id": "q091",
@@ -1180,7 +1270,8 @@
       "Tiger"
     ],
     "correct": 0,
-    "hint": "Males have a distinctive mane around their neck."
+    "hint": "Males have a distinctive mane around their neck.",
+    "correctAnswer": "Lion"
   },
   {
     "id": "q092",
@@ -1193,7 +1284,8 @@
       "100°F"
     ],
     "correct": 1,
-    "hint": "It's above 200 degrees Fahrenheit."
+    "hint": "It's above 200 degrees Fahrenheit.",
+    "correctAnswer": "212°F"
   },
   {
     "id": "q093",
@@ -1206,7 +1298,8 @@
       "Mertz"
     ],
     "correct": 2,
-    "hint": "Fred and Ethel were the Ricardos' landlords and close friends."
+    "hint": "Fred and Ethel were the Ricardos' landlords and close friends.",
+    "correctAnswer": "Mertz"
   },
   {
     "id": "q094",
@@ -1219,7 +1312,8 @@
       "Rebecca"
     ],
     "correct": 1,
-    "hint": "It was released in 1935."
+    "hint": "It was released in 1935.",
+    "correctAnswer": "The 39 Steps"
   },
   {
     "id": "q095",
@@ -1232,7 +1326,8 @@
       "Hill Street Blues"
     ],
     "correct": 2,
-    "hint": "It aired in the 1980s."
+    "hint": "It aired in the 1980s.",
+    "correctAnswer": "Hill Street Blues"
   },
   {
     "id": "q096",
@@ -1245,7 +1340,8 @@
       "Fast"
     ],
     "correct": 0,
-    "hint": "It starts with the letter C and describes something hard to do."
+    "hint": "It starts with the letter C and describes something hard to do.",
+    "correctAnswer": "Challenging"
   },
   {
     "id": "q097",
@@ -1258,7 +1354,8 @@
       "Jupiter"
     ],
     "correct": 1,
-    "hint": "NASA has sent rovers to explore its surface."
+    "hint": "NASA has sent rovers to explore its surface.",
+    "correctAnswer": "Mars"
   },
   {
     "id": "q098",
@@ -1271,7 +1368,8 @@
       "Bob Carroll Jr."
     ],
     "correct": 2,
-    "hint": "The name starts with 'Bob'."
+    "hint": "The name starts with 'Bob'.",
+    "correctAnswer": "Bob Carroll Jr."
   },
   {
     "id": "q099",
@@ -1284,7 +1382,8 @@
       "The name of his first love"
     ],
     "correct": 1,
-    "hint": "It symbolizes the innocence he lost."
+    "hint": "It symbolizes the innocence he lost.",
+    "correctAnswer": "The name of his childhood sled"
   },
   {
     "id": "q100",
@@ -1297,7 +1396,8 @@
       "Designing Women"
     ],
     "correct": 2,
-    "hint": "The firm is called Sugarbaker & Associates."
+    "hint": "The firm is called Sugarbaker & Associates.",
+    "correctAnswer": "Designing Women"
   },
   {
     "id": "q101",
@@ -1310,7 +1410,8 @@
       "Plentiful"
     ],
     "correct": 0,
-    "hint": "If a store is this, it has very little of something left."
+    "hint": "If a store is this, it has very little of something left.",
+    "correctAnswer": "Scarce"
   },
   {
     "id": "q102",
@@ -1323,6 +1424,7 @@
       "Rice"
     ],
     "correct": 1,
-    "hint": "Archaeologists have found ancient examples of it preserved in sealed containers."
+    "hint": "Archaeologists have found ancient examples of it preserved in sealed containers.",
+    "correctAnswer": "Honey"
   }
 ]

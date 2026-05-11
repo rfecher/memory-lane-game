@@ -38,14 +38,17 @@ function createNewRound(prevState) {
   const sourcePool = pool.length >= GAME_CONFIG.questionsPerRound ? pool : (byCategory[cat] || [])
   const shuffled = shuffleArray(sourcePool)
     .slice(0, GAME_CONFIG.questionsPerRound)
-    .map(q => ({ ...q, shuffledAnswers: shuffleAnswers(q) }))
+    .map(q => ({ ...q, shuffledAnswers: shuffleAnswers(q), correctAnswer: q.answers[q.correct] }))
   return {
     ...prevState,
+    roundNumber: prevState.roundNumber + 1,
+    grandchildRotationIndex: (prevState.grandchildRotationIndex + 1) % 3,
     currentQuestionIndex: 0,
     score: 0,
     currentCategory: cat,
     savedAnswers: [],
     shuffledQuestions: shuffled,
+    allAttempted: false,
   }
 }
 
@@ -98,7 +101,7 @@ export function GameProvider({ children }) {
       if (!prev) return prev
       const q = prev.shuffledQuestions[prev.currentQuestionIndex]
       if (!q) return prev
-      const isCorrect = answerIndex === q.correct
+      const isCorrect = q.answers[q.shuffledAnswers[answerIndex]] === q.correctAnswer
       const updatedAnswers = [...prev.savedAnswers, { questionId: q.id, correct: isCorrect }]
       const updated = { ...prev, savedAnswers: updatedAnswers, score: isCorrect ? prev.score + 1 : prev.score }
       saveState(updated)

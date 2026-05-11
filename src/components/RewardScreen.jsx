@@ -4,16 +4,11 @@ import { GAME_CONFIG } from '../config'
 
 function RewardScreen({ onPlayAgain, onBack }) {
   const { gameState } = useGame()
-  const score = gameState?.score || 0
-  const total = gameState?.totalQuestionsInRound || GAME_CONFIG.questionsPerRound
   const grandchild = gameState?.grandchildRotationIndex != null
     ? GAME_CONFIG.grandchildren[gameState.grandchildRotationIndex]
     : GAME_CONFIG.grandchildren[0]
 
-  const tilesToShow = Math.min(Math.floor(score * 16 / total), 16)
-  const tiles = Array.from({ length: 16 }, (_, i) => i < tilesToShow)
   const photoSrc = `${import.meta.env.BASE_URL}photos/${grandchild.folder}/1.jpg`
-
   const [photoFailed, setPhotoFailed] = useState(false)
 
   useEffect(() => {
@@ -32,7 +27,7 @@ function RewardScreen({ onPlayAgain, onBack }) {
     <div className="screen" style={{ justifyContent: 'center', minHeight: '80vh' }}>
       <h2 className="splash-title" style={{ fontSize: 'var(--font-size-heading)' }}>{GAME_CONFIG.subtitles.youDidIt}</h2>
 
-      <div style={{ position: 'relative', width: 'min(80vw, 360px)', height: 'min(80vw, 360px)', margin: 'var(--spacing-md) 0' }}>
+      <div style={{ width: 'min(80vw, 360px)', height: 'min(80vw, 360px)', margin: 'var(--spacing-md) 0' }}>
         {!photoFailed ? (
           <img
             src={photoSrc}
@@ -43,8 +38,6 @@ function RewardScreen({ onPlayAgain, onBack }) {
           />
         ) : (
           <div style={{
-            position: 'absolute',
-            inset: 0,
             width: '100%',
             height: '100%',
             background: 'var(--color-cream)',
@@ -61,11 +54,6 @@ function RewardScreen({ onPlayAgain, onBack }) {
             <span>Photo of {grandchild.name}</span>
           </div>
         )}
-        <div className="photo-grid">
-          {tiles.map((revealed, i) => (
-            <div key={i} className={`photo-tile ${revealed ? 'removed' : ''}`} />
-          ))}
-        </div>
       </div>
 
       <p className="reward-message">
