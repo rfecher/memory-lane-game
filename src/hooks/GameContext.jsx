@@ -24,11 +24,6 @@ function shuffleArray(arr) {
   return a
 }
 
-function shuffleAnswers(question) {
-  const indices = question.answers.map((_, i) => i)
-  return shuffleArray(indices)
-}
-
 function createNewRound(prevState) {
   const cat = pickWeightedCategory()
   const allowedDifficulties = GAME_CONFIG.difficultyMap[prevState.roundNumber] || ['easy']
@@ -43,7 +38,7 @@ function createNewRound(prevState) {
   const sourcePool = pool.length >= GAME_CONFIG.questionsPerRound ? pool : (byCategory[cat] || [])
   const shuffled = shuffleArray(sourcePool)
     .slice(0, GAME_CONFIG.questionsPerRound)
-    .map(q => ({ ...q, shuffledAnswers: shuffleAnswers(q), correctAnswer: q.correctAnswer || q.answers[q.correct] }))
+    .map(q => ({ ...q, correctAnswer: q.correctAnswer || q.answers[q.correct] }))
   return {
     ...prevState,
     roundNumber: prevState.roundNumber + 1,
@@ -106,7 +101,7 @@ export function GameProvider({ children }) {
       if (!prev) return prev
       const q = prev.shuffledQuestions[prev.currentQuestionIndex]
       if (!q) return prev
-      const isCorrect = q.answers[q.shuffledAnswers[answerIndex]] === q.correctAnswer
+      const isCorrect = q.answers[answerIndex] === q.correctAnswer
       const updatedAnswers = [...prev.savedAnswers, { questionId: q.id, correct: isCorrect }]
       const updated = { ...prev, savedAnswers: updatedAnswers, score: isCorrect ? prev.score + 1 : prev.score }
       saveState(updated)
