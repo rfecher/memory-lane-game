@@ -27,7 +27,7 @@ function RewardScreen({ onPlayAgain, onBack }) {
     <div className="screen" style={{ justifyContent: 'center', minHeight: '80vh' }}>
       <h2 className="splash-title" style={{ fontSize: 'var(--font-size-heading)' }}>{GAME_CONFIG.subtitles.youDidIt}</h2>
 
-      <div style={{ width: 'min(80vw, 360px)', height: 'min(80vw, 360px)', margin: 'var(--spacing-md) 0' }}>
+      <div style={{ width: 'min(70vw, 300px)', margin: 'var(--spacing-md) 0' }}>
         {!photoFailed ? (
           <img
             src={photoSrc}

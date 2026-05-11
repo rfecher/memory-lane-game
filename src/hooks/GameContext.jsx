@@ -38,7 +38,7 @@ function createNewRound(prevState) {
   const sourcePool = pool.length >= GAME_CONFIG.questionsPerRound ? pool : (byCategory[cat] || [])
   const shuffled = shuffleArray(sourcePool)
     .slice(0, GAME_CONFIG.questionsPerRound)
-    .map(q => ({ ...q, shuffledAnswers: shuffleAnswers(q), correctAnswer: q.answers[q.correct] }))
+    .map(q => ({ ...q, shuffledAnswers: shuffleAnswers(q), correctAnswer: q.correctAnswer || q.answers[q.correct] }))
   return {
     ...prevState,
     roundNumber: prevState.roundNumber + 1,
